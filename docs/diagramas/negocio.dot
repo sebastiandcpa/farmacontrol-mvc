@@ -1,0 +1,7 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=LR; node[shape=plaintext]; cliente[label="«actor»
+Cliente"]; cajero[label="«actor»
+Cajero"]; qf[label="«actor»
+Químico farmacéutico"]; almacen[label="«actor»
+Almacenero"]; proveedor[label="«actor»
+Proveedor"]; admin[label="«actor»
+Administrador"]; subgraph cluster_n { label="Negocio de farmacia"; color="#777777"; node[shape=ellipse]; bn1[label="BN-01 Atender solicitud"]; bn2[label="BN-02 Evaluar receta"]; bn3[label="BN-03 Concretar venta"]; bn4[label="BN-04 Reponer mercadería"]; bn5[label="BN-05 Recibir mercadería"]; bn6[label="BN-06 Supervisar inventario"]; bn7[label="BN-07 Resolver anulación"]; } edge[dir=none]; cliente->bn1; cajero->bn1; cliente->bn2; qf->bn2; cajero->bn3; cliente->bn3; almacen->bn4; proveedor->bn4; almacen->bn5; proveedor->bn5; almacen->bn6; admin->bn6; admin->bn7; cajero->bn7; }

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="814pt" height="165pt" viewBox="0.00 0.00 814.00 165.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 146.68)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-146.68 796.16,-146.68 796.16,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>initial</title>
+<ellipse fill="black" stroke="#555555" cx="6.12" cy="-37.44" rx="6.12" ry="6.12"/>
+</g>
+
+<g id="node2" class="node">
+<title>conf</title>
+<polygon fill="none" stroke="#555555" points="343.16,-74.88 192.93,-74.88 192.93,0 343.16,0 343.16,-74.88"/>
+<text xml:space="preserve" text-anchor="middle" x="268.05" y="-51.84" font-family="Arial" font-size="16.00">CONFIRMADA</text>
+<text xml:space="preserve" text-anchor="middle" x="268.05" y="-32.64" font-family="Arial" font-size="16.00">Stock descontado</text>
+<text xml:space="preserve" text-anchor="middle" x="268.05" y="-13.44" font-family="Arial" font-size="16.00">Salida registrada</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>initial-&gt;conf</title>
+<path fill="none" stroke="#666666" d="M12.55,-37.44C34.19,-37.44 116.27,-37.44 181.45,-37.44"/>
+<polygon fill="#666666" stroke="#666666" points="181.06,-40.94 191.06,-37.44 181.06,-33.94 181.06,-40.94"/>
+<text xml:space="preserve" text-anchor="middle" x="102.58" y="-41.04" font-family="Arial" font-size="12.00">Registro válido y COMMIT</text>
+</g>
+
+<g id="node3" class="node">
+<title>annul</title>
+<polygon fill="none" stroke="#555555" points="778.16,-74.88 507.89,-74.88 507.89,0 778.16,0 778.16,-74.88"/>
+<text xml:space="preserve" text-anchor="middle" x="643.02" y="-51.84" font-family="Arial" font-size="16.00">ANULADA</text>
+<text xml:space="preserve" text-anchor="middle" x="643.02" y="-32.64" font-family="Arial" font-size="16.00">Stock restituido</text>
+<text xml:space="preserve" text-anchor="middle" x="643.02" y="-13.44" font-family="Arial" font-size="16.00">Reverso y responsable registrados</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>conf-&gt;annul</title>
+<path fill="none" stroke="#666666" d="M343.63,-37.44C387.3,-37.44 443.96,-37.44 496.16,-37.44"/>
+<polygon fill="#666666" stroke="#666666" points="496.06,-40.94 506.06,-37.44 496.06,-33.94 496.06,-40.94"/>
+<text xml:space="preserve" text-anchor="middle" x="425.53" y="-55.44" font-family="Arial" font-size="12.00">CU-12 Administrador</text>
+<text xml:space="preserve" text-anchor="middle" x="425.53" y="-41.04" font-family="Arial" font-size="12.00">Solo si está confirmada</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>annul-&gt;annul</title>
+<path fill="none" stroke="#666666" stroke-dasharray="5,2" d="M602.28,-75.24C601.41,-88.81 614.99,-99.88 643.02,-99.88 662.96,-99.88 675.58,-94.29 680.9,-86.17"/>
+<polygon fill="#666666" stroke="#666666" points="684.23,-87.26 683.38,-76.7 677.46,-85.49 684.23,-87.26"/>
+<text xml:space="preserve" text-anchor="middle" x="643.02" y="-117.88" font-family="Arial" font-size="12.00">Nueva solicitud rechazada</text>
+<text xml:space="preserve" text-anchor="middle" x="643.02" y="-103.48" font-family="Arial" font-size="12.00">Sin transición ni segundo reverso</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="657pt" height="678pt" viewBox="0.00 0.00 657.00 678.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 659.92)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-659.92 638.89,-659.92 638.89,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>home</title>
+<polygon fill="none" stroke="#555555" points="19.47,-564.86 19.47,-633.02 140.54,-633.02 140.54,-564.86 19.47,-564.86"/>
+<text xml:space="preserve" text-anchor="middle" x="80" y="-611.78" font-family="Arial" font-size="14.00">HomeController</text>
+<polyline fill="none" stroke="#555555" points="19.47,-598.94 140.54,-598.94"/>
+<text xml:space="preserve" text-anchor="middle" x="80" y="-577.7" font-family="Arial" font-size="14.00">Index()</text>
+</g>
+
+<g id="node2" class="node">
+<title>viewmodel</title>
+<polygon fill="none" stroke="#555555" points="0,-390.9 0,-492.66 160,-492.66 160,-390.9 0,-390.9"/>
+<text xml:space="preserve" text-anchor="middle" x="80" y="-471.42" font-family="Arial" font-size="14.00">ApplicationViewModel</text>
+<polyline fill="none" stroke="#555555" points="0,-458.58 160,-458.58"/>
+<text xml:space="preserve" text-anchor="start" x="11.52" y="-437.34" font-family="Arial" font-size="14.00">Title</text>
+<text xml:space="preserve" text-anchor="start" x="11.52" y="-420.54" font-family="Arial" font-size="14.00">Name</text>
+<text xml:space="preserve" text-anchor="middle" x="80" y="-403.74" font-family="Arial" font-size="14.00">Role</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>home-&gt;viewmodel</title>
+<path fill="none" stroke="#666666" d="M80,-564.65C80,-547.07 80,-524.93 80,-504.35"/>
+<polygon fill="#666666" stroke="#666666" points="83.5,-504.64 80,-494.64 76.5,-504.64 83.5,-504.64"/>
+<text xml:space="preserve" text-anchor="middle" x="103.35" y="-525.16" font-family="Arial" font-size="12.00">presenta</text>
+</g>
+
+<g id="node3" class="node">
+<title>cuenta</title>
+<polygon fill="none" stroke="#555555" points="355.57,-399.3 355.57,-484.26 484.44,-484.26 484.44,-399.3 355.57,-399.3"/>
+<text xml:space="preserve" text-anchor="middle" x="420" y="-463.02" font-family="Arial" font-size="14.00">CuentaController</text>
+<polyline fill="none" stroke="#555555" points="355.57,-450.18 484.44,-450.18"/>
+<text xml:space="preserve" text-anchor="start" x="367.09" y="-428.94" font-family="Arial" font-size="14.00">Ingresar()</text>
+<text xml:space="preserve" text-anchor="middle" x="420" y="-412.14" font-family="Arial" font-size="14.00">Salir()</text>
+</g>
+
+<g id="node4" class="node">
+<title>login</title>
+<polygon fill="none" stroke="#555555" points="486.28,-225.34 486.28,-310.3 595.72,-310.3 595.72,-225.34 486.28,-225.34"/>
+<text xml:space="preserve" text-anchor="middle" x="541" y="-289.06" font-family="Arial" font-size="14.00">LoginRequest</text>
+<polyline fill="none" stroke="#555555" points="486.28,-276.22 595.72,-276.22"/>
+<text xml:space="preserve" text-anchor="start" x="497.8" y="-254.98" font-family="Arial" font-size="14.00">Email</text>
+<text xml:space="preserve" text-anchor="middle" x="541" y="-238.18" font-family="Arial" font-size="14.00">Password</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>cuenta-&gt;login</title>
+<path fill="none" stroke="#666666" d="M449.29,-399.15C466.04,-375.36 487.18,-345.32 504.94,-320.08"/>
+<polygon fill="#666666" stroke="#666666" points="507.8,-322.09 510.69,-311.9 502.07,-318.06 507.8,-322.09"/>
+<text xml:space="preserve" text-anchor="middle" x="500.47" y="-351.2" font-family="Arial" font-size="12.00">recibe</text>
+</g>
+
+<g id="node8" class="node">
+<title>repo</title>
+<polygon fill="none" stroke="#555555" points="245.02,-208.54 245.02,-327.1 334.98,-327.1 334.98,-208.54 245.02,-208.54"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-305.86" font-family="Arial" font-size="14.00">Repository</text>
+<polyline fill="none" stroke="#555555" points="245.02,-293.02 334.98,-293.02"/>
+<text xml:space="preserve" text-anchor="start" x="256.54" y="-271.78" font-family="Arial" font-size="14.00">User()</text>
+<text xml:space="preserve" text-anchor="start" x="256.54" y="-254.98" font-family="Arial" font-size="14.00">State()</text>
+<text xml:space="preserve" text-anchor="start" x="256.54" y="-238.18" font-family="Arial" font-size="14.00">Apply()</text>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-221.38" font-family="Arial" font-size="14.00">Initialize()</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>cuenta-&gt;repo</title>
+<path fill="none" stroke="#666666" d="M388.53,-399.15C374.27,-380.28 357.03,-357.48 340.99,-336.26"/>
+<polygon fill="#666666" stroke="#666666" points="343.93,-334.36 335.11,-328.49 338.35,-338.58 343.93,-334.36"/>
+<text xml:space="preserve" text-anchor="middle" x="381.25" y="-351.2" font-family="Arial" font-size="12.00">consulta</text>
+</g>
+
+<g id="node10" class="node">
+<title>password</title>
+<polygon fill="none" stroke="#555555" points="370.25,-225.34 370.25,-310.3 461.76,-310.3 461.76,-225.34 370.25,-225.34"/>
+<text xml:space="preserve" text-anchor="middle" x="416" y="-289.06" font-family="Arial" font-size="14.00">Passwords</text>
+<polyline fill="none" stroke="#555555" points="370.25,-276.22 461.76,-276.22"/>
+<text xml:space="preserve" text-anchor="start" x="381.77" y="-254.98" font-family="Arial" font-size="14.00">Hash()</text>
+<text xml:space="preserve" text-anchor="middle" x="416" y="-238.18" font-family="Arial" font-size="14.00">Verify()</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>cuenta-&gt;password</title>
+<path fill="none" stroke="#666666" d="M419.03,-399.15C418.5,-375.98 417.82,-346.9 417.24,-322.09"/>
+<polygon fill="#666666" stroke="#666666" points="420.74,-322.09 417.01,-312.17 413.74,-322.25 420.74,-322.09"/>
+<text xml:space="preserve" text-anchor="middle" x="437.13" y="-351.2" font-family="Arial" font-size="12.00">verifica</text>
+</g>
+
+<g id="node5" class="node">
+<title>ventas</title>
+<polygon fill="none" stroke="#555555" points="408.34,-556.46 408.34,-641.42 535.66,-641.42 535.66,-556.46 408.34,-556.46"/>
+<text xml:space="preserve" text-anchor="middle" x="472" y="-620.18" font-family="Arial" font-size="14.00">VentasController</text>
+<polyline fill="none" stroke="#555555" points="408.34,-607.34 535.66,-607.34"/>
+<text xml:space="preserve" text-anchor="start" x="419.86" y="-586.1" font-family="Arial" font-size="14.00">Registrar()</text>
+<text xml:space="preserve" text-anchor="middle" x="472" y="-569.3" font-family="Arial" font-size="14.00">Anular()</text>
+</g>
+
+<g id="node6" class="node">
+<title>base</title>
+<polygon fill="none" stroke="#555555" points="185.4,-407.7 185.4,-475.86 330.61,-475.86 330.61,-407.7 185.4,-407.7"/>
+<text xml:space="preserve" text-anchor="middle" x="258" y="-454.62" font-family="Arial" font-size="14.00">OperationController</text>
+<polyline fill="none" stroke="#555555" points="185.4,-441.78 330.61,-441.78"/>
+<text xml:space="preserve" text-anchor="middle" x="258" y="-420.54" font-family="Arial" font-size="14.00">Execute()</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>ventas-&gt;base</title>
+<path fill="none" stroke="#666666" d="M414.37,-556.16C382.94,-533.36 344.22,-505.29 313.18,-482.78"/>
+<polygon fill="none" stroke="#666666" points="315.6,-480.22 305.45,-477.18 311.49,-485.88 315.6,-480.22"/>
+<text xml:space="preserve" text-anchor="middle" x="402.85" y="-525.16" font-family="Arial" font-size="12.00">hereda</text>
+</g>
+
+<g id="node7" class="node">
+<title>venta</title>
+<polygon fill="none" stroke="#555555" points="509.12,-382.5 509.12,-501.06 620.89,-501.06 620.89,-382.5 509.12,-382.5"/>
+<text xml:space="preserve" text-anchor="middle" x="565" y="-479.82" font-family="Arial" font-size="14.00">VentaRequest</text>
+<polyline fill="none" stroke="#555555" points="509.12,-466.98 620.89,-466.98"/>
+<text xml:space="preserve" text-anchor="start" x="520.64" y="-445.74" font-family="Arial" font-size="14.00">ClientId</text>
+<text xml:space="preserve" text-anchor="start" x="520.64" y="-428.94" font-family="Arial" font-size="14.00">Type</text>
+<text xml:space="preserve" text-anchor="start" x="520.64" y="-412.14" font-family="Arial" font-size="14.00">RecipeId</text>
+<text xml:space="preserve" text-anchor="middle" x="565" y="-395.34" font-family="Arial" font-size="14.00">Items</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>ventas-&gt;venta</title>
+<path fill="none" stroke="#666666" d="M496.92,-556.36C505.3,-542.38 514.88,-526.41 524.15,-510.94"/>
+<polygon fill="#666666" stroke="#666666" points="526.95,-513.07 529.09,-502.69 520.95,-509.47 526.95,-513.07"/>
+<text xml:space="preserve" text-anchor="middle" x="532.06" y="-525.16" font-family="Arial" font-size="12.00">recibe</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>base-&gt;repo</title>
+<path fill="none" stroke="#666666" d="M264.25,-407.22C267.89,-387.64 272.62,-362.2 277.04,-338.48"/>
+<polygon fill="#666666" stroke="#666666" points="280.44,-339.33 278.83,-328.86 273.56,-338.05 280.44,-339.33"/>
+<text xml:space="preserve" text-anchor="middle" x="290.3" y="-351.2" font-family="Arial" font-size="12.00">utiliza</text>
+</g>
+
+<g id="node9" class="node">
+<title>user</title>
+<polygon fill="none" stroke="#555555" points="192.75,-0.5 192.75,-153.14 263.25,-153.14 263.25,-0.5 192.75,-0.5"/>
+<text xml:space="preserve" text-anchor="middle" x="228" y="-131.9" font-family="Arial" font-size="14.00">User</text>
+<polyline fill="none" stroke="#555555" points="192.75,-119.06 263.25,-119.06"/>
+<text xml:space="preserve" text-anchor="start" x="204.27" y="-97.82" font-family="Arial" font-size="14.00">Id</text>
+<text xml:space="preserve" text-anchor="start" x="204.27" y="-81.02" font-family="Arial" font-size="14.00">Name</text>
+<text xml:space="preserve" text-anchor="start" x="204.27" y="-64.22" font-family="Arial" font-size="14.00">Role</text>
+<text xml:space="preserve" text-anchor="middle" x="228" y="-47.42" font-family="Arial" font-size="14.00">Active</text>
+<polyline fill="none" stroke="#555555" points="192.75,-34.58 263.25,-34.58"/>
+<text xml:space="preserve" text-anchor="middle" x="228" y="-13.34" font-family="Arial" font-size="14.00">Public()</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>repo-&gt;user</title>
+<path fill="none" stroke="#666666" d="M270.73,-208.06C266.18,-194.19 261.23,-179.12 256.38,-164.32"/>
+<polygon fill="#666666" stroke="#666666" points="259.78,-163.46 253.34,-155.04 253.13,-165.64 259.78,-163.46"/>
+<text xml:space="preserve" text-anchor="middle" x="286.73" y="-177.24" font-family="Arial" font-size="12.00">devuelve</text>
+</g>
+
+<g id="node11" class="node">
+<title>sql</title>
+<polygon fill="none" stroke="#555555" points="288.18,-34.34 288.18,-119.3 417.83,-119.3 417.83,-34.34 288.18,-34.34"/>
+<text xml:space="preserve" text-anchor="middle" x="353" y="-98.06" font-family="Arial" font-size="14.00">SQL Server</text>
+<polyline fill="none" stroke="#555555" points="288.18,-85.22 417.83,-85.22"/>
+<text xml:space="preserve" text-anchor="start" x="299.7" y="-63.98" font-family="Arial" font-size="14.00">13 tablas</text>
+<text xml:space="preserve" text-anchor="middle" x="353" y="-47.18" font-family="Arial" font-size="14.00">3 procedimientos</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>repo-&gt;sql</title>
+<path fill="none" stroke="#666666" d="M310.15,-208.34C312.47,-201.5 314.8,-194.62 317,-188.04 323.27,-169.3 330.03,-148.72 335.98,-130.47"/>
+<polygon fill="#666666" stroke="#666666" points="339.24,-131.77 339,-121.18 332.58,-129.6 339.24,-131.77"/>
+<text xml:space="preserve" text-anchor="middle" x="344.99" y="-177.24" font-family="Arial" font-size="12.00">SqlClient</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=LR; subgraph cluster_pc{label="Equipo Windows de presentación";color="#555555";node[shape=box3d];browser[label="Navegador Chromium
+http://localhost:5188"];kestrel[label="ASP.NET Core MVC 10
+FarmaControl.dll
+Puerto 5188, loopback"];sql[label="SQL Server LocalDB 17
+Instancia FarmaControlAvance80
+BD FarmaControlAvance80"];browser->kestrel[label="HTTP local / JSON"];kestrel->sql[label="SqlClient
+Identidad Windows"]; } repo[shape=folder,label="GitHub público
+Fuentes y SQL
+No ejecuta ASP.NET"];repo->kestrel[style=dashed,label="Descarga y ejecución"]; }

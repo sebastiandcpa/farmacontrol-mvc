@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="641pt" height="996pt" viewBox="0.00 0.00 641.00 996.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 978)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-978 622.95,-978 622.95,18 -18,18"/>
+<g id="clust1" class="cluster">
+<title>cluster_sys</title>
+<polygon fill="white" stroke="#555555" points="215.09,-8 215.09,-952 596.95,-952 596.95,-8 215.09,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-931.8" font-family="Arial" font-size="18.00">FarmaControl</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-546.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-527.6" font-family="Arial" font-size="16.00">Administrador</text>
+</g>
+
+<g id="node5" class="node">
+<title>u1</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-273" rx="118.15" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-268.2" font-family="Arial" font-size="16.00">CU-01 Iniciar sesión</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>a-&gt;u1</title>
+<path fill="none" stroke="#666666" d="M152.01,-525.1C163.85,-519.22 175.08,-511.39 183.09,-501 235.1,-433.52 155.9,-373.28 215.09,-312 234.38,-292.02 260.96,-280.87 288.13,-274.93"/>
+</g>
+
+<g id="node6" class="node">
+<title>u2</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-581" rx="142.68" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-576.2" font-family="Arial" font-size="16.00">CU-02 Gestionar clientes</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;u2</title>
+<path fill="none" stroke="#666666" d="M152.05,-549.43C190.3,-554.2 241.3,-560.57 287.48,-566.33"/>
+</g>
+
+<g id="node7" class="node">
+<title>u3</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-196" rx="177.26" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-191.2" font-family="Arial" font-size="16.00">CU-03 Consultar medicamentos</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>a-&gt;u3</title>
+<path fill="none" stroke="#666666" d="M152.38,-525.38C164.2,-519.49 175.33,-511.58 183.09,-501 253.49,-404.97 134.45,-322.61 215.09,-235 225.46,-223.73 238.15,-215.24 251.99,-208.88"/>
+</g>
+
+<g id="node9" class="node">
+<title>u5</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-658" rx="128.84" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-653.2" font-family="Arial" font-size="16.00">CU-05 Registrar venta</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>a-&gt;u5</title>
+<path fill="none" stroke="#666666" d="M129.01,-569.81C152.45,-586.41 184.19,-606.6 215.09,-619 241.64,-629.66 271.5,-637.54 299.54,-643.31"/>
+</g>
+
+<g id="node10" class="node">
+<title>u6</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-504" rx="157.78" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-499.2" font-family="Arial" font-size="16.00">CU-06 Consultar constancia</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>a-&gt;u6</title>
+<path fill="none" stroke="#666666" d="M152.05,-534.76C187.73,-530.42 234.51,-524.74 278.12,-519.43"/>
+</g>
+
+<g id="node11" class="node">
+<title>u7</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-427" rx="138.89" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-422.2" font-family="Arial" font-size="16.00">CU-07 Registrar compra</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>a-&gt;u7</title>
+<path fill="none" stroke="#666666" d="M151.95,-519.29C162.75,-514.01 173.59,-507.89 183.09,-501 200.15,-488.62 196.76,-476.41 215.09,-466 236.31,-453.95 260.75,-445.6 284.87,-439.82"/>
+</g>
+
+<g id="node12" class="node">
+<title>u8</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-350" rx="182.93" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-345.2" font-family="Arial" font-size="16.00">CU-08 Gestionar catálogo y lotes</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>a-&gt;u8</title>
+<path fill="none" stroke="#666666" d="M152.11,-523.96C163.66,-518.17 174.74,-510.67 183.09,-501 216.91,-461.81 177.12,-424.19 215.09,-389 226.32,-378.59 239.56,-370.64 253.74,-364.62"/>
+</g>
+
+<g id="node13" class="node">
+<title>u9</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-119" rx="137.65" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-114.2" font-family="Arial" font-size="16.00">CU-09 Consultar alertas</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>a-&gt;u9</title>
+<path fill="none" stroke="#666666" d="M152.13,-525.77C164.11,-519.84 175.37,-511.82 183.09,-501 227.52,-438.66 164,-215.01 215.09,-158 229.91,-141.45 249.72,-130.85 270.95,-124.22"/>
+</g>
+
+<g id="node14" class="node">
+<title>u10</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-735" rx="138.28" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-730.2" font-family="Arial" font-size="16.00">CU-10 Generar reportes</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>a-&gt;u10</title>
+<path fill="none" stroke="#666666" d="M106.61,-569.71C126.02,-604.93 164.42,-664.9 215.09,-696 235.6,-708.59 259.47,-717.19 283.22,-723.05"/>
+</g>
+
+<g id="node15" class="node">
+<title>u11</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-812" rx="155.24" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-807.2" font-family="Arial" font-size="16.00">CU-11 Administrar usuarios</text>
+</g>
+
+<g id="edge10" class="edge">
+<title>a-&gt;u11</title>
+<path fill="none" stroke="#666666" d="M99.01,-569.84C111.99,-619.1 146.05,-721.3 215.09,-773 231.12,-785.01 249.96,-793.54 269.43,-799.56"/>
+</g>
+
+<g id="node16" class="node">
+<title>u12</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-889" rx="115.65" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-884.2" font-family="Arial" font-size="16.00">CU-12 Anular venta</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>a-&gt;u12</title>
+<path fill="none" stroke="#666666" d="M94.96,-569.61C101.82,-630.41 127.08,-776.27 215.09,-850 236.63,-868.05 264.33,-878.47 291.87,-884.33"/>
+</g>
+
+<g id="node2" class="node">
+<title>c</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-465.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-446.6" font-family="Arial" font-size="16.00">Cajero</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>c-&gt;u1</title>
+<path fill="none" stroke="#666666" d="M107.36,-433.31C127.17,-399.11 165.61,-341.83 215.09,-312 239.3,-297.4 268.08,-288.18 295.81,-282.39"/>
+</g>
+
+<g id="edge13" class="edge">
+<title>c-&gt;u2</title>
+<path fill="none" stroke="#666666" d="M129.54,-473.18C146.86,-479.98 167.15,-489.61 183.09,-502 201.06,-515.97 195.67,-530.11 215.09,-542 234.9,-554.13 257.83,-562.55 280.75,-568.38"/>
+</g>
+
+<g id="edge14" class="edge">
+<title>c-&gt;u3</title>
+<path fill="none" stroke="#666666" d="M111.28,-433.4C130.63,-404.23 161.02,-356.52 183.09,-313 200.03,-279.58 186.24,-258.91 215.09,-235 227.92,-224.37 242.89,-216.39 258.69,-210.44"/>
+</g>
+
+<g id="edge15" class="edge">
+<title>c-&gt;u5</title>
+<path fill="none" stroke="#666666" d="M129.31,-469.63C147.87,-475.76 169.31,-485.85 183.09,-502 218.08,-543.01 175.76,-582.13 215.09,-619 233.01,-635.81 256.16,-646.2 280.09,-652.47"/>
+</g>
+
+<g id="edge16" class="edge">
+<title>c-&gt;u6</title>
+<path fill="none" stroke="#666666" d="M129.62,-466.1C167.61,-471.33 228.74,-479.74 283.77,-487.31"/>
+</g>
+
+<g id="node3" class="node">
+<title>al</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-277.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-258.6" font-family="Arial" font-size="16.00">Almacenero</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>al-&gt;u1</title>
+<path fill="none" stroke="#666666" d="M145.55,-273C184.38,-273 238.61,-273 287.45,-273"/>
+</g>
+
+<g id="edge18" class="edge">
+<title>al-&gt;u3</title>
+<path fill="none" stroke="#666666" d="M145.6,-255.3C167.04,-248.47 192.11,-240.91 215.09,-235 241.01,-228.34 269.14,-222.05 295.62,-216.55"/>
+</g>
+
+<g id="edge19" class="edge">
+<title>al-&gt;u7</title>
+<path fill="none" stroke="#666666" d="M114.25,-300.83C136.6,-327.46 173.9,-366.66 215.09,-388 237.35,-399.54 262.75,-407.66 287.56,-413.39"/>
+</g>
+
+<g id="edge20" class="edge">
+<title>al-&gt;u8</title>
+<path fill="none" stroke="#666666" d="M145.6,-290.7C167.04,-297.53 192.11,-305.09 215.09,-311 240.6,-317.56 268.26,-323.75 294.37,-329.19"/>
+</g>
+
+<g id="edge21" class="edge">
+<title>al-&gt;u9</title>
+<path fill="none" stroke="#666666" d="M127.7,-245.4C144.98,-231.27 165.77,-213.41 183.09,-196 198.66,-180.35 196.11,-169.29 215.09,-158 235.92,-145.61 260.05,-137.1 283.99,-131.27"/>
+</g>
+
+<g id="node4" class="node">
+<title>q</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-160.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-141.6" font-family="Arial" font-size="16.00">Químico farmacéutico</text>
+</g>
+
+<g id="edge22" class="edge">
+<title>q-&gt;u1</title>
+<path fill="none" stroke="#666666" d="M128.43,-183.81C151.9,-200.7 183.88,-221.37 215.09,-234 243.32,-245.43 275.33,-253.66 304.92,-259.51"/>
+</g>
+
+<g id="edge23" class="edge">
+<title>q-&gt;u3</title>
+<path fill="none" stroke="#666666" d="M182.92,-167.57C210.5,-171.1 241.43,-175.06 271.24,-178.88"/>
+</g>
+
+<g id="node8" class="node">
+<title>u4</title>
+<ellipse fill="none" stroke="#555555" cx="406.02" cy="-42" rx="132.61" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406.02" y="-37.2" font-family="Arial" font-size="16.00">CU-04 Registrar receta</text>
+</g>
+
+<g id="edge24" class="edge">
+<title>q-&gt;u4</title>
+<path fill="none" stroke="#666666" d="M130.19,-128.21C153.56,-112.21 184.81,-92.95 215.09,-81 241.23,-70.68 270.53,-62.95 298.14,-57.2"/>
+</g>
+
+<g id="edge25" class="edge">
+<title>q-&gt;u9</title>
+<path fill="none" stroke="#666666" d="M182.92,-145.3C215.91,-141.39 253.69,-136.92 288.62,-132.78"/>
+</g>
+</g>
+</svg>

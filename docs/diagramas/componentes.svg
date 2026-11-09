@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="767pt" height="553pt" viewBox="0.00 0.00 767.00 553.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 534.88)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-534.88 748.58,-534.88 748.58,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>vistas</title>
+<polygon fill="none" stroke="#555555" points="508.94,-516.88 247.55,-516.88 247.55,-512.88 243.55,-512.88 243.55,-508.88 247.55,-508.88 247.55,-469.2 243.55,-469.2 243.55,-465.2 247.55,-465.2 247.55,-461.2 508.94,-461.2 508.94,-516.88"/>
+<polyline fill="none" stroke="#555555" points="247.55,-512.88 251.55,-512.88 251.55,-508.88 247.55,-508.88"/>
+<polyline fill="none" stroke="#555555" points="247.55,-469.2 251.55,-469.2 251.55,-465.2 247.55,-465.2"/>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-493.84" font-family="Arial" font-size="16.00">Views</text>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-474.64" font-family="Arial" font-size="16.00">Razor y modelos de presentación</text>
+</g>
+
+<g id="node2" class="node">
+<title>recursos</title>
+<polygon fill="none" stroke="#555555" points="390.01,-406.8 242.48,-406.8 242.48,-402.8 238.48,-402.8 238.48,-398.8 242.48,-398.8 242.48,-359.12 238.48,-359.12 238.48,-355.12 242.48,-355.12 242.48,-351.12 390.01,-351.12 390.01,-406.8"/>
+<polyline fill="none" stroke="#555555" points="242.48,-402.8 246.48,-402.8 246.48,-398.8 242.48,-398.8"/>
+<polyline fill="none" stroke="#555555" points="242.48,-359.12 246.48,-359.12 246.48,-355.12 242.48,-355.12"/>
+<text xml:space="preserve" text-anchor="middle" x="316.25" y="-383.76" font-family="Arial" font-size="16.00">wwwroot</text>
+<text xml:space="preserve" text-anchor="middle" x="316.25" y="-364.56" font-family="Arial" font-size="16.00">CSS y JavaScript</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>vistas-&gt;recursos</title>
+<path fill="none" stroke="#666666" d="M362.6,-460.77C354.96,-447.45 345.67,-431.24 337.41,-416.85"/>
+<polygon fill="#666666" stroke="#666666" points="340.65,-415.47 332.64,-408.54 334.58,-418.95 340.65,-415.47"/>
+<text xml:space="preserve" text-anchor="middle" x="365.97" y="-430.4" font-family="Arial" font-size="12.00">carga</text>
+</g>
+
+<g id="node3" class="node">
+<title>ctrl</title>
+<polygon fill="none" stroke="#555555" points="527.16,-296.72 229.33,-296.72 229.33,-292.72 225.33,-292.72 225.33,-288.72 229.33,-288.72 229.33,-249.04 225.33,-249.04 225.33,-245.04 229.33,-245.04 229.33,-241.04 527.16,-241.04 527.16,-296.72"/>
+<polyline fill="none" stroke="#555555" points="229.33,-292.72 233.33,-292.72 233.33,-288.72 229.33,-288.72"/>
+<polyline fill="none" stroke="#555555" points="229.33,-249.04 233.33,-249.04 233.33,-245.04 229.33,-245.04"/>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-273.68" font-family="Arial" font-size="16.00">Controllers</text>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-254.48" font-family="Arial" font-size="16.00">Home Cuenta Ventas Compras y otros</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>recursos-&gt;ctrl</title>
+<path fill="none" stroke="#666666" d="M331.89,-350.69C339.53,-337.37 348.83,-321.16 357.09,-306.77"/>
+<polygon fill="#666666" stroke="#666666" points="359.91,-308.87 361.85,-298.46 353.84,-305.39 359.91,-308.87"/>
+<text xml:space="preserve" text-anchor="middle" x="384.29" y="-320.32" font-family="Arial" font-size="12.00">HTTP JSON</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>ctrl-&gt;vistas</title>
+<path fill="none" stroke="#666666" d="M410.78,-297.05C415.87,-302.97 420.38,-309.61 423.25,-316.72 441.28,-361.51 420.26,-415.8 401.32,-451.09"/>
+<polygon fill="#666666" stroke="#666666" points="398.37,-449.2 396.55,-459.64 404.48,-452.61 398.37,-449.2"/>
+<text xml:space="preserve" text-anchor="middle" x="455.13" y="-375.36" font-family="Arial" font-size="12.00">renderiza</text>
+</g>
+
+<g id="node4" class="node">
+<title>modelos</title>
+<polygon fill="none" stroke="#555555" points="244.49,-186.64 0,-186.64 0,-182.64 -4,-182.64 -4,-178.64 0,-178.64 0,-138.96 -4,-138.96 -4,-134.96 0,-134.96 0,-130.96 244.49,-130.96 244.49,-186.64"/>
+<polyline fill="none" stroke="#555555" points="0,-182.64 4,-182.64 4,-178.64 0,-178.64"/>
+<polyline fill="none" stroke="#555555" points="0,-138.96 4,-138.96 4,-134.96 0,-134.96"/>
+<text xml:space="preserve" text-anchor="middle" x="122.25" y="-163.6" font-family="Arial" font-size="16.00">Models</text>
+<text xml:space="preserve" text-anchor="middle" x="122.25" y="-144.4" font-family="Arial" font-size="16.00">Solicitudes tipadas y validación</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>ctrl-&gt;modelos</title>
+<path fill="none" stroke="#666666" d="M313.65,-240.61C278.17,-225.63 234.01,-206.99 197.05,-191.38"/>
+<polygon fill="#666666" stroke="#666666" points="198.79,-188.32 188.22,-187.65 196.07,-194.77 198.79,-188.32"/>
+<text xml:space="preserve" text-anchor="middle" x="281.92" y="-210.24" font-family="Arial" font-size="12.00">recibe</text>
+</g>
+
+<g id="node5" class="node">
+<title>repo</title>
+<polygon fill="none" stroke="#555555" points="486.7,-186.64 269.79,-186.64 269.79,-182.64 265.79,-182.64 265.79,-178.64 269.79,-178.64 269.79,-138.96 265.79,-138.96 265.79,-134.96 269.79,-134.96 269.79,-130.96 486.7,-130.96 486.7,-186.64"/>
+<polyline fill="none" stroke="#555555" points="269.79,-182.64 273.79,-182.64 273.79,-178.64 269.79,-178.64"/>
+<polyline fill="none" stroke="#555555" points="269.79,-138.96 273.79,-138.96 273.79,-134.96 269.79,-134.96"/>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-163.6" font-family="Arial" font-size="16.00">Data/Repository</text>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-144.4" font-family="Arial" font-size="16.00">Persistencia parametrizada</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>ctrl-&gt;repo</title>
+<path fill="none" stroke="#666666" d="M378.25,-240.61C378.25,-227.81 378.25,-212.33 378.25,-198.35"/>
+<polygon fill="#666666" stroke="#666666" points="381.75,-198.58 378.25,-188.58 374.75,-198.58 381.75,-198.58"/>
+<text xml:space="preserve" text-anchor="middle" x="395.59" y="-210.24" font-family="Arial" font-size="12.00">invoca</text>
+</g>
+
+<g id="node6" class="node">
+<title>security</title>
+<polygon fill="none" stroke="#555555" points="730.58,-186.64 511.91,-186.64 511.91,-182.64 507.91,-182.64 507.91,-178.64 511.91,-178.64 511.91,-138.96 507.91,-138.96 507.91,-134.96 511.91,-134.96 511.91,-130.96 730.58,-130.96 730.58,-186.64"/>
+<polyline fill="none" stroke="#555555" points="511.91,-182.64 515.91,-182.64 515.91,-178.64 511.91,-178.64"/>
+<polyline fill="none" stroke="#555555" points="511.91,-138.96 515.91,-138.96 515.91,-134.96 511.91,-134.96"/>
+<text xml:space="preserve" text-anchor="middle" x="621.25" y="-163.6" font-family="Arial" font-size="16.00">Security e Infrastructure</text>
+<text xml:space="preserve" text-anchor="middle" x="621.25" y="-144.4" font-family="Arial" font-size="16.00">Sesión solicitudes y errores</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>ctrl-&gt;security</title>
+<path fill="none" stroke="#666666" d="M439.57,-240.61C473.09,-225.69 514.8,-207.14 549.79,-191.58"/>
+<polygon fill="#666666" stroke="#666666" points="550.85,-194.94 558.56,-187.68 548,-188.55 550.85,-194.94"/>
+<text xml:space="preserve" text-anchor="middle" x="529.64" y="-210.24" font-family="Arial" font-size="12.00">utiliza</text>
+</g>
+
+<g id="node7" class="node">
+<title>db</title>
+<path fill="none" stroke="#555555" d="M471.58,-69.6C471.58,-73.44 429.75,-76.56 378.25,-76.56 326.75,-76.56 284.91,-73.44 284.91,-69.6 284.91,-69.6 284.91,-6.96 284.91,-6.96 284.91,-3.12 326.75,0 378.25,0 429.75,0 471.58,-3.12 471.58,-6.96 471.58,-6.96 471.58,-69.6 471.58,-69.6"/>
+<path fill="none" stroke="#555555" d="M471.58,-69.6C471.58,-65.76 429.75,-62.64 378.25,-62.64 326.75,-62.64 284.91,-65.76 284.91,-69.6"/>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-43.08" font-family="Arial" font-size="16.00">SQL Server</text>
+<text xml:space="preserve" text-anchor="middle" x="378.25" y="-23.88" font-family="Arial" font-size="16.00">Tablas y transacciones</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>repo-&gt;db</title>
+<path fill="none" stroke="#666666" d="M378.25,-130.61C378.25,-117.99 378.25,-102.6 378.25,-88.07"/>
+<polygon fill="#666666" stroke="#666666" points="381.75,-88.19 378.25,-78.19 374.75,-88.19 381.75,-88.19"/>
+<text xml:space="preserve" text-anchor="middle" x="420.26" y="-100.16" font-family="Arial" font-size="12.00">SqlClient y TVP</text>
+</g>
+</g>
+</svg>

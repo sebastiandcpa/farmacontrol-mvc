@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="812pt" height="367pt" viewBox="0.00 0.00 812.00 367.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 348.88)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-348.88 794.27,-348.88 794.27,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>g</title>
+<polygon fill="none" stroke="#555555" points="11.52,-283.04 11.52,-322.24 263.61,-322.24 263.61,-283.04 11.52,-283.04"/>
+<text xml:space="preserve" text-anchor="start" x="77.99" y="-298.84" font-family="Arial" font-weight="bold" font-size="16.00">EDT y actividad</text>
+<polygon fill="none" stroke="#555555" points="263.61,-283.04 263.61,-322.24 354.77,-322.24 354.77,-283.04 263.61,-283.04"/>
+<text xml:space="preserve" text-anchor="start" x="286.07" y="-298.84" font-family="Arial" font-weight="bold" font-size="16.00">23 oct</text>
+<polygon fill="none" stroke="#555555" points="354.77,-283.04 354.77,-322.24 445.93,-322.24 445.93,-283.04 354.77,-283.04"/>
+<text xml:space="preserve" text-anchor="start" x="379.45" y="-298.84" font-family="Arial" font-weight="bold" font-size="16.00">9 nov</text>
+<polygon fill="none" stroke="#555555" points="445.93,-283.04 445.93,-322.24 552.2,-322.24 552.2,-283.04 445.93,-283.04"/>
+<text xml:space="preserve" text-anchor="start" x="455.93" y="-298.84" font-family="Arial" font-weight="bold" font-size="16.00">10 a 13 nov</text>
+<polygon fill="none" stroke="#555555" points="552.2,-283.04 552.2,-322.24 658.47,-322.24 658.47,-283.04 552.2,-283.04"/>
+<text xml:space="preserve" text-anchor="start" x="562.2" y="-298.84" font-family="Arial" font-weight="bold" font-size="16.00">14 a 17 nov</text>
+<polygon fill="none" stroke="#555555" points="658.47,-283.04 658.47,-322.24 764.75,-322.24 764.75,-283.04 658.47,-283.04"/>
+<text xml:space="preserve" text-anchor="start" x="668.47" y="-298.84" font-family="Arial" font-weight="bold" font-size="16.00">18 a 22 nov</text>
+<polygon fill="none" stroke="#555555" points="11.52,-243.84 11.52,-283.04 263.61,-283.04 263.61,-243.84 11.52,-243.84"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-257.04" font-family="Arial" font-size="16.00">Base de análisis e interfaz</text>
+<polygon fill="#bbbbbb" stroke="none" points="263.61,-243.84 263.61,-283.04 354.77,-283.04 354.77,-243.84 263.61,-243.84"/>
+<polygon fill="none" stroke="#555555" points="263.61,-243.84 263.61,-283.04 354.77,-283.04 354.77,-243.84 263.61,-243.84"/>
+<text xml:space="preserve" text-anchor="start" x="273.61" y="-257.04" font-family="Arial" font-size="16.00">Realizado</text>
+<polygon fill="#ffffff" stroke="none" points="354.77,-243.84 354.77,-283.04 445.93,-283.04 445.93,-243.84 354.77,-243.84"/>
+<polygon fill="none" stroke="#555555" points="354.77,-243.84 354.77,-283.04 445.93,-283.04 445.93,-243.84 354.77,-243.84"/>
+<polygon fill="#ffffff" stroke="none" points="445.93,-243.84 445.93,-283.04 552.2,-283.04 552.2,-243.84 445.93,-243.84"/>
+<polygon fill="none" stroke="#555555" points="445.93,-243.84 445.93,-283.04 552.2,-283.04 552.2,-243.84 445.93,-243.84"/>
+<polygon fill="#ffffff" stroke="none" points="552.2,-243.84 552.2,-283.04 658.47,-283.04 658.47,-243.84 552.2,-243.84"/>
+<polygon fill="none" stroke="#555555" points="552.2,-243.84 552.2,-283.04 658.47,-283.04 658.47,-243.84 552.2,-243.84"/>
+<polygon fill="#ffffff" stroke="none" points="658.47,-243.84 658.47,-283.04 764.75,-283.04 764.75,-243.84 658.47,-243.84"/>
+<polygon fill="none" stroke="#555555" points="658.47,-243.84 658.47,-283.04 764.75,-283.04 764.75,-243.84 658.47,-243.84"/>
+<polygon fill="none" stroke="#555555" points="11.52,-204.64 11.52,-243.84 263.61,-243.84 263.61,-204.64 11.52,-204.64"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-217.84" font-family="Arial" font-size="16.00">API y SQL conectados</text>
+<polygon fill="#ffffff" stroke="none" points="263.61,-204.64 263.61,-243.84 354.77,-243.84 354.77,-204.64 263.61,-204.64"/>
+<polygon fill="none" stroke="#555555" points="263.61,-204.64 263.61,-243.84 354.77,-243.84 354.77,-204.64 263.61,-204.64"/>
+<polygon fill="#bbbbbb" stroke="none" points="354.77,-204.64 354.77,-243.84 445.93,-243.84 445.93,-204.64 354.77,-204.64"/>
+<polygon fill="none" stroke="#555555" points="354.77,-204.64 354.77,-243.84 445.93,-243.84 445.93,-204.64 354.77,-204.64"/>
+<text xml:space="preserve" text-anchor="start" x="364.77" y="-217.84" font-family="Arial" font-size="16.00">Realizado</text>
+<polygon fill="#ffffff" stroke="none" points="445.93,-204.64 445.93,-243.84 552.2,-243.84 552.2,-204.64 445.93,-204.64"/>
+<polygon fill="none" stroke="#555555" points="445.93,-204.64 445.93,-243.84 552.2,-243.84 552.2,-204.64 445.93,-204.64"/>
+<polygon fill="#ffffff" stroke="none" points="552.2,-204.64 552.2,-243.84 658.47,-243.84 658.47,-204.64 552.2,-204.64"/>
+<polygon fill="none" stroke="#555555" points="552.2,-204.64 552.2,-243.84 658.47,-243.84 658.47,-204.64 552.2,-204.64"/>
+<polygon fill="#ffffff" stroke="none" points="658.47,-204.64 658.47,-243.84 764.75,-243.84 764.75,-204.64 658.47,-204.64"/>
+<polygon fill="none" stroke="#555555" points="658.47,-204.64 658.47,-243.84 764.75,-243.84 764.75,-204.64 658.47,-204.64"/>
+<polygon fill="none" stroke="#555555" points="11.52,-165.44 11.52,-204.64 263.61,-204.64 263.61,-165.44 11.52,-165.44"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-178.64" font-family="Arial" font-size="16.00">Pruebas y entrega 80 por ciento</text>
+<polygon fill="#ffffff" stroke="none" points="263.61,-165.44 263.61,-204.64 354.77,-204.64 354.77,-165.44 263.61,-165.44"/>
+<polygon fill="none" stroke="#555555" points="263.61,-165.44 263.61,-204.64 354.77,-204.64 354.77,-165.44 263.61,-165.44"/>
+<polygon fill="#bbbbbb" stroke="none" points="354.77,-165.44 354.77,-204.64 445.93,-204.64 445.93,-165.44 354.77,-165.44"/>
+<polygon fill="none" stroke="#555555" points="354.77,-165.44 354.77,-204.64 445.93,-204.64 445.93,-165.44 354.77,-165.44"/>
+<text xml:space="preserve" text-anchor="start" x="364.77" y="-178.64" font-family="Arial" font-size="16.00">Realizado</text>
+<polygon fill="#ffffff" stroke="none" points="445.93,-165.44 445.93,-204.64 552.2,-204.64 552.2,-165.44 445.93,-165.44"/>
+<polygon fill="none" stroke="#555555" points="445.93,-165.44 445.93,-204.64 552.2,-204.64 552.2,-165.44 445.93,-165.44"/>
+<polygon fill="#ffffff" stroke="none" points="552.2,-165.44 552.2,-204.64 658.47,-204.64 658.47,-165.44 552.2,-165.44"/>
+<polygon fill="none" stroke="#555555" points="552.2,-165.44 552.2,-204.64 658.47,-204.64 658.47,-165.44 552.2,-165.44"/>
+<polygon fill="#ffffff" stroke="none" points="658.47,-165.44 658.47,-204.64 764.75,-204.64 764.75,-165.44 658.47,-165.44"/>
+<polygon fill="none" stroke="#555555" points="658.47,-165.44 658.47,-204.64 764.75,-204.64 764.75,-165.44 658.47,-165.44"/>
+<polygon fill="none" stroke="#555555" points="11.52,-126.24 11.52,-165.44 263.61,-165.44 263.61,-126.24 11.52,-126.24"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-139.44" font-family="Arial" font-size="16.00">Auditoría y revisión de permisos</text>
+<polygon fill="#ffffff" stroke="none" points="263.61,-126.24 263.61,-165.44 354.77,-165.44 354.77,-126.24 263.61,-126.24"/>
+<polygon fill="none" stroke="#555555" points="263.61,-126.24 263.61,-165.44 354.77,-165.44 354.77,-126.24 263.61,-126.24"/>
+<polygon fill="#ffffff" stroke="none" points="354.77,-126.24 354.77,-165.44 445.93,-165.44 445.93,-126.24 354.77,-126.24"/>
+<polygon fill="none" stroke="#555555" points="354.77,-126.24 354.77,-165.44 445.93,-165.44 445.93,-126.24 354.77,-126.24"/>
+<polygon fill="#eeeeee" stroke="none" points="445.93,-126.24 445.93,-165.44 552.2,-165.44 552.2,-126.24 445.93,-126.24"/>
+<polygon fill="none" stroke="#555555" points="445.93,-126.24 445.93,-165.44 552.2,-165.44 552.2,-126.24 445.93,-126.24"/>
+<text xml:space="preserve" text-anchor="start" x="470.16" y="-139.44" font-family="Arial" font-size="16.00">Previsto</text>
+<polygon fill="#eeeeee" stroke="none" points="552.2,-126.24 552.2,-165.44 658.47,-165.44 658.47,-126.24 552.2,-126.24"/>
+<polygon fill="none" stroke="#555555" points="552.2,-126.24 552.2,-165.44 658.47,-165.44 658.47,-126.24 552.2,-126.24"/>
+<text xml:space="preserve" text-anchor="start" x="576.44" y="-139.44" font-family="Arial" font-size="16.00">Previsto</text>
+<polygon fill="#ffffff" stroke="none" points="658.47,-126.24 658.47,-165.44 764.75,-165.44 764.75,-126.24 658.47,-126.24"/>
+<polygon fill="none" stroke="#555555" points="658.47,-126.24 658.47,-165.44 764.75,-165.44 764.75,-126.24 658.47,-126.24"/>
+<polygon fill="none" stroke="#555555" points="11.52,-87.04 11.52,-126.24 263.61,-126.24 263.61,-87.04 11.52,-87.04"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-100.24" font-family="Arial" font-size="16.00">Aceptación con usuarios</text>
+<polygon fill="#ffffff" stroke="none" points="263.61,-87.04 263.61,-126.24 354.77,-126.24 354.77,-87.04 263.61,-87.04"/>
+<polygon fill="none" stroke="#555555" points="263.61,-87.04 263.61,-126.24 354.77,-126.24 354.77,-87.04 263.61,-87.04"/>
+<polygon fill="#ffffff" stroke="none" points="354.77,-87.04 354.77,-126.24 445.93,-126.24 445.93,-87.04 354.77,-87.04"/>
+<polygon fill="none" stroke="#555555" points="354.77,-87.04 354.77,-126.24 445.93,-126.24 445.93,-87.04 354.77,-87.04"/>
+<polygon fill="#eeeeee" stroke="none" points="445.93,-87.04 445.93,-126.24 552.2,-126.24 552.2,-87.04 445.93,-87.04"/>
+<polygon fill="none" stroke="#555555" points="445.93,-87.04 445.93,-126.24 552.2,-126.24 552.2,-87.04 445.93,-87.04"/>
+<text xml:space="preserve" text-anchor="start" x="470.16" y="-100.24" font-family="Arial" font-size="16.00">Previsto</text>
+<polygon fill="#eeeeee" stroke="none" points="552.2,-87.04 552.2,-126.24 658.47,-126.24 658.47,-87.04 552.2,-87.04"/>
+<polygon fill="none" stroke="#555555" points="552.2,-87.04 552.2,-126.24 658.47,-126.24 658.47,-87.04 552.2,-87.04"/>
+<text xml:space="preserve" text-anchor="start" x="576.44" y="-100.24" font-family="Arial" font-size="16.00">Previsto</text>
+<polygon fill="#ffffff" stroke="none" points="658.47,-87.04 658.47,-126.24 764.75,-126.24 764.75,-87.04 658.47,-87.04"/>
+<polygon fill="none" stroke="#555555" points="658.47,-87.04 658.47,-126.24 764.75,-126.24 764.75,-87.04 658.47,-87.04"/>
+<polygon fill="none" stroke="#555555" points="11.52,-47.84 11.52,-87.04 263.61,-87.04 263.61,-47.84 11.52,-47.84"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-61.04" font-family="Arial" font-size="16.00">HTTPS y recuperación</text>
+<polygon fill="#ffffff" stroke="none" points="263.61,-47.84 263.61,-87.04 354.77,-87.04 354.77,-47.84 263.61,-47.84"/>
+<polygon fill="none" stroke="#555555" points="263.61,-47.84 263.61,-87.04 354.77,-87.04 354.77,-47.84 263.61,-47.84"/>
+<polygon fill="#ffffff" stroke="none" points="354.77,-47.84 354.77,-87.04 445.93,-87.04 445.93,-47.84 354.77,-47.84"/>
+<polygon fill="none" stroke="#555555" points="354.77,-47.84 354.77,-87.04 445.93,-87.04 445.93,-47.84 354.77,-47.84"/>
+<polygon fill="#ffffff" stroke="none" points="445.93,-47.84 445.93,-87.04 552.2,-87.04 552.2,-47.84 445.93,-47.84"/>
+<polygon fill="none" stroke="#555555" points="445.93,-47.84 445.93,-87.04 552.2,-87.04 552.2,-47.84 445.93,-47.84"/>
+<polygon fill="#eeeeee" stroke="none" points="552.2,-47.84 552.2,-87.04 658.47,-87.04 658.47,-47.84 552.2,-47.84"/>
+<polygon fill="none" stroke="#555555" points="552.2,-47.84 552.2,-87.04 658.47,-87.04 658.47,-47.84 552.2,-47.84"/>
+<text xml:space="preserve" text-anchor="start" x="576.44" y="-61.04" font-family="Arial" font-size="16.00">Previsto</text>
+<polygon fill="#eeeeee" stroke="none" points="658.47,-47.84 658.47,-87.04 764.75,-87.04 764.75,-47.84 658.47,-47.84"/>
+<polygon fill="none" stroke="#555555" points="658.47,-47.84 658.47,-87.04 764.75,-87.04 764.75,-47.84 658.47,-47.84"/>
+<text xml:space="preserve" text-anchor="start" x="682.71" y="-61.04" font-family="Arial" font-size="16.00">Previsto</text>
+<polygon fill="none" stroke="#555555" points="11.52,-8.64 11.52,-47.84 263.61,-47.84 263.61,-8.64 11.52,-8.64"/>
+<text xml:space="preserve" text-anchor="start" x="21.52" y="-21.84" font-family="Arial" font-size="16.00">Video y cierre del informe</text>
+<polygon fill="#ffffff" stroke="none" points="263.61,-8.64 263.61,-47.84 354.77,-47.84 354.77,-8.64 263.61,-8.64"/>
+<polygon fill="none" stroke="#555555" points="263.61,-8.64 263.61,-47.84 354.77,-47.84 354.77,-8.64 263.61,-8.64"/>
+<polygon fill="#ffffff" stroke="none" points="354.77,-8.64 354.77,-47.84 445.93,-47.84 445.93,-8.64 354.77,-8.64"/>
+<polygon fill="none" stroke="#555555" points="354.77,-8.64 354.77,-47.84 445.93,-47.84 445.93,-8.64 354.77,-8.64"/>
+<polygon fill="#ffffff" stroke="none" points="445.93,-8.64 445.93,-47.84 552.2,-47.84 552.2,-8.64 445.93,-8.64"/>
+<polygon fill="none" stroke="#555555" points="445.93,-8.64 445.93,-47.84 552.2,-47.84 552.2,-8.64 445.93,-8.64"/>
+<polygon fill="#ffffff" stroke="none" points="552.2,-8.64 552.2,-47.84 658.47,-47.84 658.47,-8.64 552.2,-8.64"/>
+<polygon fill="none" stroke="#555555" points="552.2,-8.64 552.2,-47.84 658.47,-47.84 658.47,-8.64 552.2,-8.64"/>
+<polygon fill="#eeeeee" stroke="none" points="658.47,-8.64 658.47,-47.84 764.75,-47.84 764.75,-8.64 658.47,-8.64"/>
+<polygon fill="none" stroke="#555555" points="658.47,-8.64 658.47,-47.84 764.75,-47.84 764.75,-8.64 658.47,-8.64"/>
+<text xml:space="preserve" text-anchor="start" x="682.71" y="-21.84" font-family="Arial" font-size="16.00">Previsto</text>
+</g>
+</g>
+</svg>

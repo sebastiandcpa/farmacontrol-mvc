@@ -1,0 +1,11 @@
+Changed database context to 'FarmaControlAvance80'.
+T01|Aprobado|Venta, detalle y salida confirmados. Stock disminuye 2 dentro de la transaccion de prueba.
+T02|Aprobado|Error 50016. Stock insuficiente rechazado y saldo conservado.
+T03|Aprobado|Error 50016. Lote vencido rechazado aun con stock positivo.
+T04|Aprobado|Error 50018. Medicamento que requiere receta no se vende sin referencia.
+T05|Aprobado|Error 50017 en receta de otro cliente y en receta vencida.
+T06|Aprobado|Compra de 10 unidades, total 50.00 y entrada de inventario verificados.
+T07|Aprobado|Restriccion UNIQUE rechaza comprobante repetido. Transaccion de prueba revertida.
+T08|Aprobado|Saldo restituido, venta anulada y reverso con responsable y fecha.
+T09|Aprobado|Error 50021. Segunda anulacion rechazada sin duplicar existencias.
+T10|Aprobado|Vista SQL devuelve lote proximo a vencer, agotado y vencido.

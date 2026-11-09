@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560pt" height="449pt" viewBox="0.00 0.00 560.00 449.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 431.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-431.4 541.9,-431.4 541.9,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="black" stroke="#555555" cx="301.88" cy="-407.28" rx="6.12" ry="6.12"/>
+</g>
+
+<g id="node2" class="node">
+<title>select</title>
+<polygon fill="none" stroke="#555555" points="405.9,-360.16 197.87,-360.16 197.87,-323.68 405.9,-323.68 405.9,-360.16"/>
+<text xml:space="preserve" text-anchor="middle" x="301.88" y="-337.12" font-family="Arial" font-size="16.00">Seleccionar cliente y lotes</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>start-&gt;select</title>
+<path fill="none" stroke="#666666" d="M301.88,-400.88C301.88,-394.37 301.88,-382.94 301.88,-371.95"/>
+<polygon fill="#666666" stroke="#666666" points="305.38,-371.95 301.88,-361.95 298.38,-371.95 305.38,-371.95"/>
+</g>
+
+<g id="node3" class="node">
+<title>validate</title>
+<polygon fill="none" stroke="#555555" points="184.88,-282.68 0,-227 184.88,-171.32 369.77,-227 184.88,-282.68"/>
+<text xml:space="preserve" text-anchor="middle" x="184.88" y="-231.8" font-family="Arial" font-size="16.00">¿Datos, vigencia,</text>
+<text xml:space="preserve" text-anchor="middle" x="184.88" y="-212.6" font-family="Arial" font-size="16.00">receta y stock válidos?</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>select-&gt;validate</title>
+<path fill="none" stroke="#666666" d="M283.6,-323.28C270.9,-311.02 253.29,-294.02 236.46,-277.78"/>
+<polygon fill="#666666" stroke="#666666" points="239,-275.36 229.37,-270.94 234.14,-280.4 239,-275.36"/>
+</g>
+
+<g id="node4" class="node">
+<title>reject</title>
+<polygon fill="none" stroke="#555555" points="523.9,-116.92 315.87,-116.92 315.87,-61.24 523.9,-61.24 523.9,-116.92"/>
+<text xml:space="preserve" text-anchor="middle" x="419.88" y="-93.88" font-family="Arial" font-size="16.00">Informar error</text>
+<text xml:space="preserve" text-anchor="middle" x="419.88" y="-74.68" font-family="Arial" font-size="16.00">Conservar estado anterior</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>validate-&gt;reject</title>
+<path fill="none" stroke="#666666" d="M247.55,-189.75C283.47,-168.98 328.2,-143.11 363.09,-122.93"/>
+<polygon fill="#666666" stroke="#666666" points="364.43,-126.19 371.34,-118.16 360.93,-120.13 364.43,-126.19"/>
+<text xml:space="preserve" text-anchor="middle" x="344.83" y="-140.52" font-family="Arial" font-size="12.00">No</text>
+</g>
+
+<g id="node5" class="node">
+<title>commit</title>
+<polygon fill="none" stroke="#555555" points="290.79,-116.92 24.97,-116.92 24.97,-61.24 290.79,-61.24 290.79,-116.92"/>
+<text xml:space="preserve" text-anchor="middle" x="157.88" y="-93.88" font-family="Arial" font-size="16.00">Confirmar transacción</text>
+<text xml:space="preserve" text-anchor="middle" x="157.88" y="-74.68" font-family="Arial" font-size="16.00">Venta, detalle, stock y movimiento</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>validate-&gt;commit</title>
+<path fill="none" stroke="#666666" d="M174.6,-174.23C171.57,-158.95 168.3,-142.52 165.47,-128.27"/>
+<polygon fill="#666666" stroke="#666666" points="168.98,-127.98 163.6,-118.85 162.12,-129.34 168.98,-127.98"/>
+<text xml:space="preserve" text-anchor="middle" x="177.1" y="-140.52" font-family="Arial" font-size="12.00">Sí</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>reject-&gt;select</title>
+<path fill="none" stroke="#666666" d="M420.55,-117.25C420.27,-156.76 414.89,-230.97 381.88,-282.68 373.11,-296.43 359.83,-307.99 346.61,-317.1"/>
+<polygon fill="#666666" stroke="#666666" points="344.81,-314.09 338.32,-322.47 348.62,-319.97 344.81,-314.09"/>
+<text xml:space="preserve" text-anchor="middle" x="438.72" y="-223.4" font-family="Arial" font-size="12.00">Corregir</text>
+</g>
+
+<g id="node6" class="node">
+<title>end</title>
+<ellipse fill="none" stroke="#555555" cx="157.88" cy="-10.12" rx="6.12" ry="6.12"/>
+<ellipse fill="none" stroke="#555555" cx="157.88" cy="-10.12" rx="10.12" ry="10.12"/>
+</g>
+
+<g id="edge6" class="edge">
+<title>commit-&gt;end</title>
+<path fill="none" stroke="#666666" d="M157.88,-61.16C157.88,-51.62 157.88,-41.03 157.88,-32.05"/>
+<polygon fill="#666666" stroke="#666666" points="161.38,-32.24 157.88,-22.24 154.38,-32.24 161.38,-32.24"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=TB; node[shape=box]; start[shape=circle,label="",style=filled,fillcolor="black",width=.17]; select[label="Seleccionar cliente y lotes"]; validate[shape=diamond,label="¿Datos, vigencia,
+receta y stock válidos?"];reject[label="Informar error
+Conservar estado anterior"];commit[label="Confirmar transacción
+Venta, detalle, stock y movimiento"];end[shape=doublecircle,label="",width=.17];start->select->validate;validate->reject[label="No"];validate->commit[label="Sí"];reject->select[label="Corregir"];commit->end; }

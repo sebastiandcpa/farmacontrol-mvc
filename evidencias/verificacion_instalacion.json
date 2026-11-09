@@ -1,0 +1,7 @@
+{
+  "entorno": "Instancia nueva FarmaControlVerificacion",
+  "preparacion": "13 tablas y datos iniciales creados",
+  "sql": "T01 a T10 aprobados",
+  "usuarios": "Alta y desactivación verificadas. Usuario inactivo rechazado con HTTP 401.",
+  "iniciador": "Preparación repetida conserva registros. Compilación sin advertencias ni errores."
+}

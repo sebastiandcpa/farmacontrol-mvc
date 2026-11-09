@@ -1,0 +1,205 @@
+{
+  "fecha": "2026-11-09",
+  "base": "http://localhost:5190",
+  "resultados": [
+    {
+      "id": "API01",
+      "caso": "Acceso sin sesión",
+      "estado": "Aprobado",
+      "obtenido": "Lectura y escritura sin sesión devuelven HTTP 401.",
+      "ms": 319.74
+    },
+    {
+      "id": "API02",
+      "caso": "Contraseña incorrecta",
+      "estado": "Aprobado",
+      "obtenido": "La contraseña incorrecta devuelve HTTP 401.",
+      "ms": 1989.76
+    },
+    {
+      "id": "API03",
+      "caso": "Acceso por roles",
+      "estado": "Aprobado",
+      "obtenido": "Cuatro roles autenticados y cookie HttpOnly recibida.",
+      "ms": 417.09
+    },
+    {
+      "id": "API04",
+      "caso": "Protección de solicitudes",
+      "estado": "Aprobado",
+      "obtenido": "Solicitud sin cabecera y origen ajeno devuelven HTTP 403.",
+      "ms": 21.67
+    },
+    {
+      "id": "API05",
+      "caso": "Autorización del servidor",
+      "estado": "Aprobado",
+      "obtenido": "Cuatro operaciones fuera del rol devuelven HTTP 403.",
+      "ms": 80.49
+    },
+    {
+      "id": "API06",
+      "caso": "Minimización de datos por rol",
+      "estado": "Aprobado",
+      "obtenido": "No se envían hashes y el almacenero no recibe recetas ni documentos de clientes.",
+      "ms": 173.33
+    },
+    {
+      "id": "API07",
+      "caso": "Registro de cliente",
+      "estado": "Aprobado",
+      "obtenido": "Cliente persistido en SQL Server con DNI 80000006.",
+      "ms": 176.24
+    },
+    {
+      "id": "API08",
+      "caso": "Validación de documentos",
+      "estado": "Aprobado",
+      "obtenido": "DNI duplicado e inválido rechazados sin insertar filas.",
+      "ms": 148.12
+    },
+    {
+      "id": "API09",
+      "caso": "Edición y persistencia entre sesiones",
+      "estado": "Aprobado",
+      "obtenido": "La segunda sesión recupera el teléfono actualizado desde SQL Server.",
+      "ms": 64.87
+    },
+    {
+      "id": "API10",
+      "caso": "Catálogo y lote",
+      "estado": "Aprobado",
+      "obtenido": "Medicamento y lote creados con stock inicial cero.",
+      "ms": 158.9
+    },
+    {
+      "id": "API11",
+      "caso": "Compra transaccional",
+      "estado": "Aprobado",
+      "obtenido": "Compra de 5 unidades por S/ 10.00 y stock 0 a 5.",
+      "ms": 147.8
+    },
+    {
+      "id": "API12",
+      "caso": "Compra duplicada sin cambios",
+      "estado": "Aprobado",
+      "obtenido": "Documento repetido rechazado y stock conservado en 5.",
+      "ms": 33.77
+    },
+    {
+      "id": "API13",
+      "caso": "Venta y precio del servidor",
+      "estado": "Aprobado",
+      "obtenido": "Venta de 2 unidades por S/ 8.50. El servidor ignora el precio adulterado.",
+      "ms": 133.11
+    },
+    {
+      "id": "API14",
+      "caso": "Rechazo y atomicidad",
+      "estado": "Aprobado",
+      "obtenido": "Stock insuficiente y lote repetido rechazados sin venta, detalle ni movimiento.",
+      "ms": 85.71
+    },
+    {
+      "id": "API15",
+      "caso": "Validación de recetas en la venta",
+      "estado": "Aprobado",
+      "obtenido": "Venta con receta ausente, de otro cliente y vencida rechazadas.",
+      "ms": 110.64
+    },
+    {
+      "id": "API16",
+      "caso": "Registro de receta por profesional",
+      "estado": "Aprobado",
+      "obtenido": "Receta registrada por el químico farmacéutico con responsable persistido.",
+      "ms": 54.94
+    },
+    {
+      "id": "API17",
+      "caso": "Documento requerido para factura",
+      "estado": "Aprobado",
+      "obtenido": "Factura interna para cliente sin RUC rechazada.",
+      "ms": 21.48
+    },
+    {
+      "id": "API18",
+      "caso": "Anulación única y trazabilidad",
+      "estado": "Aprobado",
+      "obtenido": "Stock 3 a 5, responsable y fecha registrados. Segunda anulación rechazada.",
+      "ms": 88.48
+    },
+    {
+      "id": "API19",
+      "caso": "Concurrencia sin sobreventa",
+      "estado": "Aprobado",
+      "obtenido": "Dos ventas concurrentes de 5 unidades: una confirmada y una rechazada. Stock mínimo observado 0.",
+      "ms": 69.85
+    },
+    {
+      "id": "API20",
+      "caso": "Parametrización SQL",
+      "estado": "Aprobado",
+      "obtenido": "La cadena SQL se almacena como texto y la tabla Cliente permanece accesible.",
+      "ms": 47.86
+    },
+    {
+      "id": "API21",
+      "caso": "Protección de cuenta activa",
+      "estado": "Aprobado",
+      "obtenido": "El administrador no puede desactivar su propia cuenta.",
+      "ms": 27.4
+    },
+    {
+      "id": "API22",
+      "caso": "Tiempo de consulta local",
+      "estado": "Aprobado",
+      "obtenido": "10 lecturas locales. Promedio 27.4 ms. Máximo 65.5 ms.",
+      "ms": 273.81
+    },
+    {
+      "id": "API23",
+      "caso": "Cierre de sesión",
+      "estado": "Aprobado",
+      "obtenido": "Cerrar sesión invalida el acceso a la API en esa sesión.",
+      "ms": 85.42
+    }
+  ],
+  "fixture": {
+    "client": {
+      "id": 11,
+      "docType": "DNI",
+      "doc": "80000006",
+      "name": "Cliente Verificación 80",
+      "phone": "900000001"
+    },
+    "product": {
+      "id": 10,
+      "sku": "QA80-758185300",
+      "name": "Medicamento Verificación 80",
+      "category": "Verificación",
+      "presentation": "Unidad",
+      "price": 4.25,
+      "rx": false
+    },
+    "lot": {
+      "id": 11,
+      "productId": 10,
+      "code": "LOTE-758185300",
+      "expiry": "2027-02-07",
+      "stock": 0,
+      "min": 1
+    },
+    "purchase": {
+      "supplierId": 1,
+      "document": "QA80-6917792800",
+      "items": [
+        {
+          "lotId": 11,
+          "qty": 5,
+          "price": 2
+        }
+      ]
+    },
+    "saleId": 9
+  }
+}

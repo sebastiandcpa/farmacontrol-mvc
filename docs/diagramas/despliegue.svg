@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="997pt" height="246pt" viewBox="0.00 0.00 997.00 246.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 228.44)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-228.44 979.02,-228.44 979.02,18 -18,18"/>
+<g id="clust1" class="cluster">
+<title>cluster_pc</title>
+<polygon fill="white" stroke="#555555" points="8,-82.44 8,-202.44 953.02,-202.44 953.02,-82.44 8,-82.44"/>
+<text xml:space="preserve" text-anchor="middle" x="480.51" y="-182.24" font-family="Arial" font-size="18.00">Equipo Windows de presentación</text>
+</g>
+
+<g id="node1" class="node">
+<title>browser</title>
+<polygon fill="none" stroke="#555555" points="195.55,-155.28 20,-155.28 16,-151.28 16,-99.6 191.55,-99.6 195.55,-103.6 195.55,-155.28"/>
+<polyline fill="none" stroke="#555555" points="191.55,-151.28 16,-151.28"/>
+<polyline fill="none" stroke="#555555" points="191.55,-151.28 191.55,-99.6"/>
+<polyline fill="none" stroke="#555555" points="191.55,-151.28 195.55,-155.28"/>
+<text xml:space="preserve" text-anchor="middle" x="105.77" y="-132.24" font-family="Arial" font-size="16.00">Navegador Chromium</text>
+<text xml:space="preserve" text-anchor="middle" x="105.77" y="-113.04" font-family="Arial" font-size="16.00">http://localhost:5188</text>
+</g>
+
+<g id="node2" class="node">
+<title>kestrel</title>
+<polygon fill="none" stroke="#555555" points="543.14,-164.88 354.27,-164.88 350.27,-160.88 350.27,-90 539.14,-90 543.14,-94 543.14,-164.88"/>
+<polyline fill="none" stroke="#555555" points="539.14,-160.88 350.27,-160.88"/>
+<polyline fill="none" stroke="#555555" points="539.14,-160.88 539.14,-90"/>
+<polyline fill="none" stroke="#555555" points="539.14,-160.88 543.14,-164.88"/>
+<text xml:space="preserve" text-anchor="middle" x="446.7" y="-141.84" font-family="Arial" font-size="16.00">ASP.NET Core MVC 10</text>
+<text xml:space="preserve" text-anchor="middle" x="446.7" y="-122.64" font-family="Arial" font-size="16.00">FarmaControl.dll</text>
+<text xml:space="preserve" text-anchor="middle" x="446.7" y="-103.44" font-family="Arial" font-size="16.00">Puerto 5188, loopback</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>browser-&gt;kestrel</title>
+<path fill="none" stroke="#666666" d="M195.82,-127.44C239.49,-127.44 292.43,-127.44 338.32,-127.44"/>
+<polygon fill="#666666" stroke="#666666" points="338.31,-130.94 348.31,-127.44 338.31,-123.94 338.31,-130.94"/>
+<text xml:space="preserve" text-anchor="middle" x="272.91" y="-131.04" font-family="Arial" font-size="12.00">HTTP local / JSON</text>
+</g>
+
+<g id="node3" class="node">
+<title>sql</title>
+<polygon fill="none" stroke="#555555" points="945.02,-164.88 688.53,-164.88 684.53,-160.88 684.53,-90 941.02,-90 945.02,-94 945.02,-164.88"/>
+<polyline fill="none" stroke="#555555" points="941.02,-160.88 684.53,-160.88"/>
+<polyline fill="none" stroke="#555555" points="941.02,-160.88 941.02,-90"/>
+<polyline fill="none" stroke="#555555" points="941.02,-160.88 945.02,-164.88"/>
+<text xml:space="preserve" text-anchor="middle" x="814.77" y="-141.84" font-family="Arial" font-size="16.00">SQL Server LocalDB 17</text>
+<text xml:space="preserve" text-anchor="middle" x="814.77" y="-122.64" font-family="Arial" font-size="16.00">Instancia FarmaControlAvance80</text>
+<text xml:space="preserve" text-anchor="middle" x="814.77" y="-103.44" font-family="Arial" font-size="16.00">BD FarmaControlAvance80</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>kestrel-&gt;sql</title>
+<path fill="none" stroke="#666666" d="M543.41,-127.44C582.88,-127.44 629.44,-127.44 672.69,-127.44"/>
+<polygon fill="#666666" stroke="#666666" points="672.69,-130.94 682.69,-127.44 672.69,-123.94 672.69,-130.94"/>
+<text xml:space="preserve" text-anchor="middle" x="613.83" y="-145.44" font-family="Arial" font-size="12.00">SqlClient</text>
+<text xml:space="preserve" text-anchor="middle" x="613.83" y="-131.04" font-family="Arial" font-size="12.00">Identidad Windows</text>
+</g>
+
+<g id="node4" class="node">
+<title>repo</title>
+<polygon fill="none" stroke="#555555" points="191.99,-74.88 188.99,-78.88 167.99,-78.88 164.99,-74.88 19.55,-74.88 19.55,0 191.99,0 191.99,-74.88"/>
+<text xml:space="preserve" text-anchor="middle" x="105.77" y="-51.84" font-family="Arial" font-size="16.00">GitHub público</text>
+<text xml:space="preserve" text-anchor="middle" x="105.77" y="-32.64" font-family="Arial" font-size="16.00">Fuentes y SQL</text>
+<text xml:space="preserve" text-anchor="middle" x="105.77" y="-13.44" font-family="Arial" font-size="16.00">No ejecuta ASP.NET</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>repo-&gt;kestrel</title>
+<path fill="none" stroke="#666666" stroke-dasharray="5,2" d="M192.3,-60.15C236.87,-71.99 291.81,-86.58 339.13,-99.14"/>
+<polygon fill="#666666" stroke="#666666" points="338.01,-102.46 348.57,-101.65 339.81,-95.7 338.01,-102.46"/>
+<text xml:space="preserve" text-anchor="middle" x="272.91" y="-99.36" font-family="Arial" font-size="12.00">Descarga y ejecución</text>
+</g>
+</g>
+</svg>

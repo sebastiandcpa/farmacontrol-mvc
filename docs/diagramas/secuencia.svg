@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="877pt" height="393pt" viewBox="0.00 0.00 877.00 393.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 374.98)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-374.98 859.4,-374.98 859.4,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>h0</title>
+<polygon fill="none" stroke="#555555" points="70.17,-356.98 0,-356.98 0,-320.5 70.17,-320.5 70.17,-356.98"/>
+<text xml:space="preserve" text-anchor="middle" x="35.09" y="-333.94" font-family="Arial" font-size="16.00">Cajero</text>
+</g>
+
+<g id="node2" class="node">
+<title>h1</title>
+<polygon fill="none" stroke="#555555" points="236.95,-356.98 171.22,-356.98 171.22,-320.5 236.95,-320.5 236.95,-356.98"/>
+<text xml:space="preserve" text-anchor="middle" x="204.09" y="-333.94" font-family="Arial" font-size="16.00">app.js</text>
+</g>
+
+
+<g id="node6" class="node">
+<title>n1_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-289.14" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge5" class="edge">
+<title>h0-&gt;n1_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-320.05C35.09,-307.58 35.09,-292.62 35.09,-289.93"/>
+</g>
+
+<g id="node3" class="node">
+<title>h2</title>
+<polygon fill="none" stroke="#555555" points="464.19,-356.98 321.98,-356.98 321.98,-320.5 464.19,-320.5 464.19,-356.98"/>
+<text xml:space="preserve" text-anchor="middle" x="393.09" y="-333.94" font-family="Arial" font-size="16.00">VentasController</text>
+</g>
+
+
+<g id="node7" class="node">
+<title>n1_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-289.14" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge6" class="edge">
+<title>h1-&gt;n1_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-320.05C204.09,-307.58 204.09,-292.62 204.09,-289.93"/>
+</g>
+
+<g id="node4" class="node">
+<title>h3</title>
+<polygon fill="none" stroke="#555555" points="648.84,-356.98 549.33,-356.98 549.33,-320.5 648.84,-320.5 648.84,-356.98"/>
+<text xml:space="preserve" text-anchor="middle" x="599.09" y="-333.94" font-family="Arial" font-size="16.00">Repository</text>
+</g>
+
+
+<g id="node8" class="node">
+<title>n1_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-289.14" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge7" class="edge">
+<title>h2-&gt;n1_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-320.05C393.09,-307.58 393.09,-292.62 393.09,-289.93"/>
+</g>
+
+<g id="node5" class="node">
+<title>h4</title>
+<polygon fill="none" stroke="#555555" points="841.4,-356.98 734.77,-356.98 734.77,-320.5 841.4,-320.5 841.4,-356.98"/>
+<text xml:space="preserve" text-anchor="middle" x="788.09" y="-333.94" font-family="Arial" font-size="16.00">SQL Server</text>
+</g>
+
+
+<g id="node9" class="node">
+<title>n1_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-289.14" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge8" class="edge">
+<title>h3-&gt;n1_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-320.05C599.09,-307.58 599.09,-292.62 599.09,-289.93"/>
+</g>
+
+<g id="node10" class="node">
+<title>n1_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-289.14" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge9" class="edge">
+<title>h4-&gt;n1_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-320.05C788.09,-307.58 788.09,-292.62 788.09,-289.93"/>
+</g>
+
+
+<g id="edge95" class="edge">
+<title>n1_0-&gt;n1_1</title>
+<path fill="none" stroke="#333333" d="M35.84,-289.14C46.27,-289.14 162.08,-289.14 195.25,-289.14"/>
+<polygon fill="#333333" stroke="#333333" points="194.88,-291.59 201.88,-289.14 194.88,-286.69 194.88,-291.59"/>
+<text xml:space="preserve" text-anchor="middle" x="119.59" y="-295.74" font-family="Arial" font-size="12.00">1 Confirmar venta</text>
+</g>
+
+<g id="node11" class="node">
+<title>n2_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-257.42" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge14" class="edge">
+<title>n1_0-&gt;n2_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-288.43C35.09,-285.24 35.09,-261.09 35.09,-258.09"/>
+</g>
+
+
+<g id="node12" class="node">
+<title>n2_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-257.42" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge15" class="edge">
+<title>n1_1-&gt;n2_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-288.43C204.09,-285.24 204.09,-261.09 204.09,-258.09"/>
+</g>
+
+
+<g id="node13" class="node">
+<title>n2_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-257.42" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge16" class="edge">
+<title>n1_2-&gt;n2_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-288.43C393.09,-285.24 393.09,-261.09 393.09,-258.09"/>
+</g>
+
+
+<g id="node14" class="node">
+<title>n2_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-257.42" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge17" class="edge">
+<title>n1_3-&gt;n2_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-288.43C599.09,-285.24 599.09,-261.09 599.09,-258.09"/>
+</g>
+
+<g id="node15" class="node">
+<title>n2_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-257.42" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge18" class="edge">
+<title>n1_4-&gt;n2_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-288.43C788.09,-285.24 788.09,-261.09 788.09,-258.09"/>
+</g>
+
+
+<g id="node16" class="node">
+<title>n3_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-225.7" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge23" class="edge">
+<title>n2_0-&gt;n3_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-256.71C35.09,-253.52 35.09,-229.37 35.09,-226.37"/>
+</g>
+
+
+<g id="edge96" class="edge">
+<title>n2_1-&gt;n2_2</title>
+<path fill="none" stroke="#333333" d="M204.93,-257.42C216.7,-257.42 348.39,-257.42 384.16,-257.42"/>
+<polygon fill="#333333" stroke="#333333" points="383.79,-259.87 390.79,-257.42 383.79,-254.97 383.79,-259.87"/>
+<text xml:space="preserve" text-anchor="middle" x="298.59" y="-264.02" font-family="Arial" font-size="12.00">2 POST JSON y cookie</text>
+</g>
+
+<g id="node17" class="node">
+<title>n3_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-225.7" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge24" class="edge">
+<title>n2_1-&gt;n3_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-256.71C204.09,-253.52 204.09,-229.37 204.09,-226.37"/>
+</g>
+
+
+<g id="node18" class="node">
+<title>n3_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-225.7" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge25" class="edge">
+<title>n2_2-&gt;n3_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-256.71C393.09,-253.52 393.09,-229.37 393.09,-226.37"/>
+</g>
+
+
+<g id="node19" class="node">
+<title>n3_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-225.7" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge26" class="edge">
+<title>n2_3-&gt;n3_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-256.71C599.09,-253.52 599.09,-229.37 599.09,-226.37"/>
+</g>
+
+<g id="node20" class="node">
+<title>n3_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-225.7" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge27" class="edge">
+<title>n2_4-&gt;n3_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-256.71C788.09,-253.52 788.09,-229.37 788.09,-226.37"/>
+</g>
+
+
+<g id="node21" class="node">
+<title>n4_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-193.98" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge32" class="edge">
+<title>n3_0-&gt;n4_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-224.99C35.09,-221.8 35.09,-197.65 35.09,-194.65"/>
+</g>
+
+
+<g id="node22" class="node">
+<title>n4_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-193.98" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge33" class="edge">
+<title>n3_1-&gt;n4_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-224.99C204.09,-221.8 204.09,-197.65 204.09,-194.65"/>
+</g>
+
+
+<g id="edge97" class="edge">
+<title>n3_2-&gt;n3_3</title>
+<path fill="none" stroke="#333333" d="M393.68,-225.7C404.19,-225.7 552.01,-225.7 590.16,-225.7"/>
+<polygon fill="#333333" stroke="#333333" points="590.02,-228.15 597.02,-225.7 590.02,-223.25 590.02,-228.15"/>
+<text xml:space="preserve" text-anchor="middle" x="496.09" y="-232.3" font-family="Arial" font-size="12.00">3 Apply usuario y detalle</text>
+</g>
+
+<g id="node23" class="node">
+<title>n4_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-193.98" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge34" class="edge">
+<title>n3_2-&gt;n4_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-224.99C393.09,-221.8 393.09,-197.65 393.09,-194.65"/>
+</g>
+
+
+<g id="node24" class="node">
+<title>n4_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-193.98" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge35" class="edge">
+<title>n3_3-&gt;n4_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-224.99C599.09,-221.8 599.09,-197.65 599.09,-194.65"/>
+</g>
+
+<g id="node25" class="node">
+<title>n4_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-193.98" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge36" class="edge">
+<title>n3_4-&gt;n4_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-224.99C788.09,-221.8 788.09,-197.65 788.09,-194.65"/>
+</g>
+
+
+<g id="node26" class="node">
+<title>n5_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-162.26" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge41" class="edge">
+<title>n4_0-&gt;n5_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-193.27C35.09,-190.08 35.09,-165.93 35.09,-162.93"/>
+</g>
+
+
+<g id="node27" class="node">
+<title>n5_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-162.26" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge42" class="edge">
+<title>n4_1-&gt;n5_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-193.27C204.09,-190.08 204.09,-165.93 204.09,-162.93"/>
+</g>
+
+
+<g id="node28" class="node">
+<title>n5_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-162.26" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge43" class="edge">
+<title>n4_2-&gt;n5_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-193.27C393.09,-190.08 393.09,-165.93 393.09,-162.93"/>
+</g>
+
+
+<g id="edge98" class="edge">
+<title>n4_3-&gt;n4_4</title>
+<path fill="none" stroke="#333333" d="M599.93,-193.98C611.7,-193.98 743.39,-193.98 779.16,-193.98"/>
+<polygon fill="#333333" stroke="#333333" points="778.79,-196.43 785.79,-193.98 778.79,-191.53 778.79,-196.43"/>
+<text xml:space="preserve" text-anchor="middle" x="693.59" y="-200.58" font-family="Arial" font-size="12.00">4 EXEC sp_RegistrarVenta</text>
+</g>
+
+<g id="node29" class="node">
+<title>n5_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-162.26" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge44" class="edge">
+<title>n4_3-&gt;n5_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-193.27C599.09,-190.08 599.09,-165.93 599.09,-162.93"/>
+</g>
+
+<g id="node30" class="node">
+<title>n5_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-162.26" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge45" class="edge">
+<title>n4_4-&gt;n5_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-193.27C788.09,-190.08 788.09,-165.93 788.09,-162.93"/>
+</g>
+
+
+<g id="node31" class="node">
+<title>n6_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-130.54" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge50" class="edge">
+<title>n5_0-&gt;n6_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-161.55C35.09,-158.36 35.09,-134.21 35.09,-131.21"/>
+</g>
+
+
+<g id="node32" class="node">
+<title>n6_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-130.54" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge51" class="edge">
+<title>n5_1-&gt;n6_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-161.55C204.09,-158.36 204.09,-134.21 204.09,-131.21"/>
+</g>
+
+
+<g id="node33" class="node">
+<title>n6_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-130.54" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge52" class="edge">
+<title>n5_2-&gt;n6_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-161.55C393.09,-158.36 393.09,-134.21 393.09,-131.21"/>
+</g>
+
+
+<g id="node34" class="node">
+<title>n6_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-130.54" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge53" class="edge">
+<title>n5_3-&gt;n6_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-161.55C599.09,-158.36 599.09,-134.21 599.09,-131.21"/>
+</g>
+
+<g id="edge99" class="edge">
+<title>n5_4-&gt;n5_3</title>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M787.31,-162.26C775.98,-162.26 644.33,-162.26 608.21,-162.26"/>
+<polygon fill="#333333" stroke="#333333" points="608.44,-159.81 601.44,-162.26 608.44,-164.71 608.44,-159.81"/>
+<text xml:space="preserve" text-anchor="middle" x="693.59" y="-168.86" font-family="Arial" font-size="12.00">5 VentaId tras COMMIT</text>
+</g>
+
+<g id="node35" class="node">
+<title>n6_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-130.54" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge54" class="edge">
+<title>n5_4-&gt;n6_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-161.55C788.09,-158.36 788.09,-134.21 788.09,-131.21"/>
+</g>
+
+
+<g id="node36" class="node">
+<title>n7_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-98.82" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge59" class="edge">
+<title>n6_0-&gt;n7_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-129.83C35.09,-126.64 35.09,-102.49 35.09,-99.49"/>
+</g>
+
+
+<g id="node37" class="node">
+<title>n7_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-98.82" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge60" class="edge">
+<title>n6_1-&gt;n7_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-129.83C204.09,-126.64 204.09,-102.49 204.09,-99.49"/>
+</g>
+
+
+<g id="node38" class="node">
+<title>n7_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-98.82" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge61" class="edge">
+<title>n6_2-&gt;n7_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-129.83C393.09,-126.64 393.09,-102.49 393.09,-99.49"/>
+</g>
+
+
+<g id="edge100" class="edge">
+<title>n6_3-&gt;n6_4</title>
+<path fill="none" stroke="#333333" d="M599.93,-130.54C611.7,-130.54 743.39,-130.54 779.16,-130.54"/>
+<polygon fill="#333333" stroke="#333333" points="778.79,-132.99 785.79,-130.54 778.79,-128.09 778.79,-132.99"/>
+<text xml:space="preserve" text-anchor="middle" x="693.59" y="-137.14" font-family="Arial" font-size="12.00">6 Consultar estado</text>
+</g>
+
+<g id="node39" class="node">
+<title>n7_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-98.82" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge62" class="edge">
+<title>n6_3-&gt;n7_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-129.83C599.09,-126.64 599.09,-102.49 599.09,-99.49"/>
+</g>
+
+<g id="node40" class="node">
+<title>n7_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-98.82" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge63" class="edge">
+<title>n6_4-&gt;n7_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-129.83C788.09,-126.64 788.09,-102.49 788.09,-99.49"/>
+</g>
+
+
+<g id="node41" class="node">
+<title>n8_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-67.1" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge68" class="edge">
+<title>n7_0-&gt;n8_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-98.11C35.09,-94.92 35.09,-70.77 35.09,-67.77"/>
+</g>
+
+
+<g id="node42" class="node">
+<title>n8_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-67.1" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge69" class="edge">
+<title>n7_1-&gt;n8_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-98.11C204.09,-94.92 204.09,-70.77 204.09,-67.77"/>
+</g>
+
+
+<g id="node43" class="node">
+<title>n8_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-67.1" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge70" class="edge">
+<title>n7_2-&gt;n8_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-98.11C393.09,-94.92 393.09,-70.77 393.09,-67.77"/>
+</g>
+
+
+<g id="node44" class="node">
+<title>n8_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-67.1" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge71" class="edge">
+<title>n7_3-&gt;n8_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-98.11C599.09,-94.92 599.09,-70.77 599.09,-67.77"/>
+</g>
+
+<g id="edge101" class="edge">
+<title>n7_4-&gt;n7_3</title>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M787.31,-98.82C775.98,-98.82 644.33,-98.82 608.21,-98.82"/>
+<polygon fill="#333333" stroke="#333333" points="608.44,-96.37 601.44,-98.82 608.44,-101.27 608.44,-96.37"/>
+<text xml:space="preserve" text-anchor="middle" x="693.59" y="-105.42" font-family="Arial" font-size="12.00">7 Estado persistido</text>
+</g>
+
+<g id="node45" class="node">
+<title>n8_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-67.1" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge72" class="edge">
+<title>n7_4-&gt;n8_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-98.11C788.09,-94.92 788.09,-70.77 788.09,-67.77"/>
+</g>
+
+
+<g id="node46" class="node">
+<title>n9_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-35.38" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge77" class="edge">
+<title>n8_0-&gt;n9_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-66.39C35.09,-63.2 35.09,-39.05 35.09,-36.05"/>
+</g>
+
+
+<g id="node47" class="node">
+<title>n9_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-35.38" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge78" class="edge">
+<title>n8_1-&gt;n9_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-66.39C204.09,-63.2 204.09,-39.05 204.09,-36.05"/>
+</g>
+
+
+<g id="node48" class="node">
+<title>n9_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-35.38" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge79" class="edge">
+<title>n8_2-&gt;n9_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-66.39C393.09,-63.2 393.09,-39.05 393.09,-36.05"/>
+</g>
+
+<g id="edge102" class="edge">
+<title>n8_3-&gt;n8_2</title>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M598.53,-67.1C588.33,-67.1 440.55,-67.1 402.15,-67.1"/>
+<polygon fill="#333333" stroke="#333333" points="402.19,-64.65 395.19,-67.1 402.19,-69.55 402.19,-64.65"/>
+<text xml:space="preserve" text-anchor="middle" x="496.09" y="-73.7" font-family="Arial" font-size="12.00">8 Estado y operationId</text>
+</g>
+
+
+<g id="node49" class="node">
+<title>n9_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-35.38" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge80" class="edge">
+<title>n8_3-&gt;n9_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-66.39C599.09,-63.2 599.09,-39.05 599.09,-36.05"/>
+</g>
+
+<g id="node50" class="node">
+<title>n9_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-35.38" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge81" class="edge">
+<title>n8_4-&gt;n9_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-66.39C788.09,-63.2 788.09,-39.05 788.09,-36.05"/>
+</g>
+
+
+<g id="node51" class="node">
+<title>n10_0</title>
+<ellipse fill="#555555" stroke="#555555" cx="35.09" cy="-3.66" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge86" class="edge">
+<title>n9_0-&gt;n10_0</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M35.09,-34.67C35.09,-31.48 35.09,-7.33 35.09,-4.33"/>
+</g>
+
+
+<g id="node52" class="node">
+<title>n10_1</title>
+<ellipse fill="#555555" stroke="#555555" cx="204.09" cy="-3.66" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge87" class="edge">
+<title>n9_1-&gt;n10_1</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M204.09,-34.67C204.09,-31.48 204.09,-7.33 204.09,-4.33"/>
+</g>
+
+<g id="edge103" class="edge">
+<title>n9_2-&gt;n9_1</title>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M392.31,-35.38C380.98,-35.38 249.33,-35.38 213.21,-35.38"/>
+<polygon fill="#333333" stroke="#333333" points="213.44,-32.93 206.44,-35.38 213.44,-37.83 213.44,-32.93"/>
+<text xml:space="preserve" text-anchor="middle" x="298.59" y="-41.98" font-family="Arial" font-size="12.00">9 JSON de respuesta</text>
+</g>
+
+
+<g id="node53" class="node">
+<title>n10_2</title>
+<ellipse fill="#555555" stroke="#555555" cx="393.09" cy="-3.66" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge88" class="edge">
+<title>n9_2-&gt;n10_2</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M393.09,-34.67C393.09,-31.48 393.09,-7.33 393.09,-4.33"/>
+</g>
+
+
+<g id="node54" class="node">
+<title>n10_3</title>
+<ellipse fill="#555555" stroke="#555555" cx="599.09" cy="-3.66" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge89" class="edge">
+<title>n9_3-&gt;n10_3</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M599.09,-34.67C599.09,-31.48 599.09,-7.33 599.09,-4.33"/>
+</g>
+
+<g id="node55" class="node">
+<title>n10_4</title>
+<ellipse fill="#555555" stroke="#555555" cx="788.09" cy="-3.66" rx="0.36" ry="0.36"/>
+</g>
+
+<g id="edge90" class="edge">
+<title>n9_4-&gt;n10_4</title>
+<path fill="none" stroke="#aaaaaa" stroke-dasharray="5,2" d="M788.09,-34.67C788.09,-31.48 788.09,-7.33 788.09,-4.33"/>
+</g>
+
+
+<g id="edge104" class="edge">
+<title>n10_1-&gt;n10_0</title>
+<path fill="none" stroke="#333333" stroke-dasharray="5,2" d="M203.39,-3.66C193.35,-3.66 77.58,-3.66 44.1,-3.66"/>
+<polygon fill="#333333" stroke="#333333" points="44.35,-1.21 37.35,-3.66 44.35,-6.11 44.35,-1.21"/>
+<text xml:space="preserve" text-anchor="middle" x="119.59" y="-10.26" font-family="Arial" font-size="12.00">10 Constancia de venta</text>
+</g>
+
+
+
+</g>
+</svg>

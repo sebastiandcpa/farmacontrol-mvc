@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="592pt" height="611pt" viewBox="0.00 0.00 592.00 611.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 593)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-593 573.91,-593 573.91,18 -18,18"/>
+<g id="clust1" class="cluster">
+<title>cluster_n</title>
+<polygon fill="white" stroke="#777777" points="215.09,-8 215.09,-567 547.91,-567 547.91,-8 215.09,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-546.8" font-family="Arial" font-size="18.00">Negocio de farmacia</text>
+</g>
+
+<g id="node1" class="node">
+<title>cliente</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-508.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-489.6" font-family="Arial" font-size="16.00">Cliente</text>
+</g>
+
+<g id="node7" class="node">
+<title>bn1</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-504" rx="135.15" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-499.2" font-family="Arial" font-size="16.00">BN-01 Atender solicitud</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>cliente-&gt;bn1</title>
+<path fill="none" stroke="#666666" d="M129.6,-504C159.45,-504 203.34,-504 246.1,-504"/>
+</g>
+
+<g id="node8" class="node">
+<title>bn2</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-350" rx="124.45" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-345.2" font-family="Arial" font-size="16.00">BN-02 Evaluar receta</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>cliente-&gt;bn2</title>
+<path fill="none" stroke="#666666" d="M129.31,-494.24C147.42,-487.86 168.45,-477.89 183.09,-463 208.21,-437.45 187.61,-412 215.09,-389 230.58,-376.02 249.63,-367.2 269.22,-361.24"/>
+</g>
+
+<g id="node9" class="node">
+<title>bn3</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-427" rx="132" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-422.2" font-family="Arial" font-size="16.00">BN-03 Concretar venta</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>cliente-&gt;bn3</title>
+<path fill="none" stroke="#666666" d="M129.62,-491.77C153.82,-483.97 186.18,-473.88 215.09,-466 240.28,-459.13 267.82,-452.35 293.08,-446.42"/>
+</g>
+
+<g id="node2" class="node">
+<title>cajero</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-427.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-408.6" font-family="Arial" font-size="16.00">Cajero</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>cajero-&gt;bn1</title>
+<path fill="none" stroke="#666666" d="M129.51,-436.74C153.67,-445.45 186.02,-456.62 215.09,-465 239.47,-472.03 266.13,-478.74 290.8,-484.55"/>
+</g>
+
+<g id="edge5" class="edge">
+<title>cajero-&gt;bn3</title>
+<path fill="none" stroke="#666666" d="M129.6,-423.51C160.21,-423.94 205.58,-424.57 249.36,-425.18"/>
+</g>
+
+<g id="node13" class="node">
+<title>bn7</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-273" rx="147.72" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-268.2" font-family="Arial" font-size="16.00">BN-07 Resolver anulación</text>
+</g>
+
+<g id="edge14" class="edge">
+<title>cajero-&gt;bn7</title>
+<path fill="none" stroke="#666666" d="M129.63,-412.96C147.61,-406.54 168.42,-396.62 183.09,-382 207.32,-357.85 188.63,-333.69 215.09,-312 228.09,-301.34 243.51,-293.49 259.61,-287.73"/>
+</g>
+
+<g id="node3" class="node">
+<title>qf</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-346.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-327.6" font-family="Arial" font-size="16.00">Químico farmacéutico</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>qf-&gt;bn2</title>
+<path fill="none" stroke="#666666" d="M182.86,-344.51C206.61,-345.17 232.64,-345.89 257.78,-346.59"/>
+</g>
+
+<g id="node4" class="node">
+<title>almacen</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-127.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-108.6" font-family="Arial" font-size="16.00">Almacenero</text>
+</g>
+
+<g id="node10" class="node">
+<title>bn4</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-119" rx="158.41" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-114.2" font-family="Arial" font-size="16.00">BN-04 Reponer mercadería</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>almacen-&gt;bn4</title>
+<path fill="none" stroke="#666666" d="M145.69,-122.26C168.04,-121.95 195.32,-121.57 223.26,-121.18"/>
+</g>
+
+<g id="node11" class="node">
+<title>bn5</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-42" rx="150.22" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-37.2" font-family="Arial" font-size="16.00">BN-05 Recibir mercadería</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>almacen-&gt;bn5</title>
+<path fill="none" stroke="#666666" d="M145.56,-103.55C167,-96.02 192.07,-87.64 215.09,-81 238.19,-74.33 263.35,-67.96 286.91,-62.37"/>
+</g>
+
+<g id="node12" class="node">
+<title>bn6</title>
+<ellipse fill="none" stroke="#555555" cx="381.5" cy="-196" rx="157.78" ry="25.8"/>
+<text xml:space="preserve" text-anchor="middle" x="381.5" y="-191.2" font-family="Arial" font-size="16.00">BN-06 Supervisar inventario</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>almacen-&gt;bn6</title>
+<path fill="none" stroke="#666666" d="M145.5,-138.18C167.04,-144.23 192.2,-151.13 215.09,-157 238.66,-163.05 264.22,-169.25 288.04,-174.87"/>
+</g>
+
+<g id="node5" class="node">
+<title>proveedor</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-46.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-27.6" font-family="Arial" font-size="16.00">Proveedor</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>proveedor-&gt;bn4</title>
+<path fill="none" stroke="#666666" d="M139.75,-57.47C162.42,-64.69 190.05,-73.18 215.09,-80 238.14,-86.29 263.17,-92.5 286.61,-98.05"/>
+</g>
+
+<g id="edge10" class="edge">
+<title>proveedor-&gt;bn5</title>
+<path fill="none" stroke="#666666" d="M139.77,-42C165.06,-42 197.76,-42 230.86,-42"/>
+</g>
+
+<g id="node6" class="node">
+<title>admin</title>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-237.8" font-family="Arial" font-size="16.00">«actor»</text>
+<text xml:space="preserve" text-anchor="middle" x="91.54" y="-218.6" font-family="Arial" font-size="16.00">Administrador</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>admin-&gt;bn6</title>
+<path fill="none" stroke="#666666" d="M152.21,-225.33C182.35,-221.46 220.11,-216.61 256.19,-211.97"/>
+</g>
+
+<g id="edge13" class="edge">
+<title>admin-&gt;bn7</title>
+<path fill="none" stroke="#666666" d="M152.21,-241.29C184.66,-245.8 225.94,-251.53 264.44,-256.88"/>
+</g>
+</g>
+</svg>

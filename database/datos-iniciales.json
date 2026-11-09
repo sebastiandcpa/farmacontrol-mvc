@@ -1,0 +1,414 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": "MED-001",
+      "name": "Paracetamol 500 mg",
+      "category": "Analgésicos",
+      "presentation": "Caja x 20 tabletas",
+      "price": 8.5,
+      "rx": false
+    },
+    {
+      "id": 2,
+      "sku": "MED-002",
+      "name": "Cetirizina 10 mg",
+      "category": "Antialérgicos",
+      "presentation": "Caja x 10 tabletas",
+      "price": 12.9,
+      "rx": false
+    },
+    {
+      "id": 3,
+      "sku": "MED-003",
+      "name": "Alcohol en gel 250 ml",
+      "category": "Cuidado personal",
+      "presentation": "Frasco 250 ml",
+      "price": 9.9,
+      "rx": false
+    },
+    {
+      "id": 4,
+      "sku": "MED-004",
+      "name": "Amoxicilina 500 mg",
+      "category": "Antibióticos",
+      "presentation": "Caja x 21 cápsulas",
+      "price": 21.5,
+      "rx": true
+    },
+    {
+      "id": 5,
+      "sku": "MED-005",
+      "name": "Suero fisiológico 500 ml",
+      "category": "Cuidado personal",
+      "presentation": "Frasco 500 ml",
+      "price": 7.2,
+      "rx": false
+    },
+    {
+      "id": 6,
+      "sku": "MED-006",
+      "name": "Omeprazol 20 mg",
+      "category": "Gastrointestinal",
+      "presentation": "Caja x 14 cápsulas",
+      "price": 16.9,
+      "rx": false
+    },
+    {
+      "id": 7,
+      "sku": "MED-007",
+      "name": "Ibuprofeno 400 mg",
+      "category": "Analgésicos",
+      "presentation": "Caja x 10 tabletas",
+      "price": 9.5,
+      "rx": false
+    },
+    {
+      "id": 8,
+      "sku": "MED-008",
+      "name": "Vitamina C 1 g",
+      "category": "Vitaminas",
+      "presentation": "Tubo x 10 tabletas",
+      "price": 18.9,
+      "rx": false
+    }
+  ],
+  "lots": [
+    {
+      "id": 1,
+      "productId": 1,
+      "code": "P-2401",
+      "expiry": "2027-11-04",
+      "stock": 0,
+      "min": 15
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "code": "C-1822",
+      "expiry": "2027-07-07",
+      "stock": 0,
+      "min": 10
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "code": "AG-830",
+      "expiry": "2027-05-08",
+      "stock": 0,
+      "min": 12
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "code": "AM-705",
+      "expiry": "2026-11-29",
+      "stock": 0,
+      "min": 10
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "code": "SF-401",
+      "expiry": "2027-08-06",
+      "stock": 0,
+      "min": 12
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "code": "OM-320",
+      "expiry": "2027-12-04",
+      "stock": 0,
+      "min": 10
+    },
+    {
+      "id": 7,
+      "productId": 7,
+      "code": "IB-104",
+      "expiry": "2027-04-08",
+      "stock": 0,
+      "min": 10
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "code": "VC-509",
+      "expiry": "2027-09-05",
+      "stock": 0,
+      "min": 10
+    },
+    {
+      "id": 9,
+      "productId": 1,
+      "code": "P-ANTERIOR",
+      "expiry": "2026-11-04",
+      "stock": 0,
+      "min": 5
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "docType": "DNI",
+      "doc": "12345678",
+      "name": "María Torres",
+      "phone": "999111222"
+    },
+    {
+      "id": 2,
+      "docType": "DNI",
+      "doc": "45678912",
+      "name": "Luis Paredes",
+      "phone": "988333444"
+    },
+    {
+      "id": 3,
+      "docType": "DNI",
+      "doc": "78912345",
+      "name": "Ana Rodríguez",
+      "phone": "977555666"
+    },
+    {
+      "id": 4,
+      "docType": "DNI",
+      "doc": "32165498",
+      "name": "Pedro Castillo",
+      "phone": "966222333"
+    },
+    {
+      "id": 5,
+      "docType": "RUC",
+      "doc": "20123456789",
+      "name": "Centro Médico Los Olivos",
+      "phone": "015550100"
+    },
+    {
+      "id": 6,
+      "docType": "DNI",
+      "doc": "65498712",
+      "name": "Sofía Vargas",
+      "phone": "955888777"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Distribuidora Salud Perú",
+      "ruc": "20111111111",
+      "phone": "015550201",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Logística Médica Andina",
+      "ruc": "20222222222",
+      "phone": "015550202",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Laboratorios Vida Sana",
+      "ruc": "20333333333",
+      "phone": "015550203",
+      "active": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Lucía Méndez",
+      "email": "admin@farmacontrol.local",
+      "role": "Administrador",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Carlos Ruiz",
+      "email": "caja@farmacontrol.local",
+      "role": "Cajero",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Elena Rojas",
+      "email": "almacen@farmacontrol.local",
+      "role": "Almacenero",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Andrés Salazar",
+      "email": "quimico@farmacontrol.local",
+      "role": "Químico farmacéutico",
+      "active": true
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "code": "REC-00041",
+      "prescriber": "Profesional A",
+      "issued": "2026-11-06",
+      "expiry": "2026-12-09",
+      "status": "VALIDA",
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "clientId": 2,
+      "code": "REC-00042",
+      "prescriber": "Profesional B",
+      "issued": "2026-11-07",
+      "expiry": "2026-12-04",
+      "status": "VALIDA",
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "clientId": 3,
+      "code": "REC-00038",
+      "prescriber": "Profesional C",
+      "issued": "2026-09-30",
+      "expiry": "2026-10-30",
+      "status": "VALIDA",
+      "userId": 4
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "supplierId": 1,
+      "document": "FC-0001",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 459,
+      "items": [
+        {
+          "lotId": 1,
+          "productId": 1,
+          "name": "Paracetamol 500 mg",
+          "lot": "P-2401",
+          "qty": 90,
+          "price": 5.1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "supplierId": 2,
+      "document": "FC-0002",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 69.66,
+      "items": [
+        {
+          "lotId": 2,
+          "productId": 2,
+          "name": "Cetirizina 10 mg",
+          "lot": "C-1822",
+          "qty": 9,
+          "price": 7.74
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "supplierId": 3,
+      "document": "FC-0003",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 368.28,
+      "items": [
+        {
+          "lotId": 3,
+          "productId": 3,
+          "name": "Alcohol en gel 250 ml",
+          "lot": "AG-830",
+          "qty": 62,
+          "price": 5.94
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "supplierId": 1,
+      "document": "FC-0004",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 464.4,
+      "items": [
+        {
+          "lotId": 4,
+          "productId": 4,
+          "name": "Amoxicilina 500 mg",
+          "lot": "AM-705",
+          "qty": 36,
+          "price": 12.9
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "supplierId": 2,
+      "document": "FC-0005",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 34.56,
+      "items": [
+        {
+          "lotId": 5,
+          "productId": 5,
+          "name": "Suero fisiológico 500 ml",
+          "lot": "SF-401",
+          "qty": 8,
+          "price": 4.32
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "supplierId": 3,
+      "document": "FC-0006",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 415.74,
+      "items": [
+        {
+          "lotId": 6,
+          "productId": 6,
+          "name": "Omeprazol 20 mg",
+          "lot": "OM-320",
+          "qty": 41,
+          "price": 10.14
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "supplierId": 2,
+      "document": "FC-0008",
+      "userId": 3,
+      "date": "2026-10-25T15:00:00.000Z",
+      "total": 317.52,
+      "items": [
+        {
+          "lotId": 8,
+          "productId": 8,
+          "name": "Vitamina C 1 g",
+          "lot": "VC-509",
+          "qty": 28,
+          "price": 11.34
+        }
+      ]
+    }
+  ],
+  "openingBalances": [
+    {
+      "lotId": 9,
+      "qty": 12
+    }
+  ],
+  "referenceDate": "2026-11-09"
+}

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="562pt" height="378pt" viewBox="0.00 0.00 562.00 378.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 360.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-360.4 543.86,-360.4 543.86,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>cliente</title>
+<polygon fill="none" stroke="#555555" points="72.84,-265.92 0,-265.92 0,-229.44 72.84,-229.44 72.84,-265.92"/>
+<text xml:space="preserve" text-anchor="middle" x="36.42" y="-242.88" font-family="Arial" font-size="16.00">Cliente</text>
+</g>
+
+<g id="node2" class="node">
+<title>receta</title>
+<polygon fill="none" stroke="#555555" points="123.29,-189.44 49.55,-189.44 49.55,-152.96 123.29,-152.96 123.29,-189.44"/>
+<text xml:space="preserve" text-anchor="middle" x="86.42" y="-166.4" font-family="Arial" font-size="16.00">Receta</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>cliente-&gt;receta</title>
+<path fill="none" stroke="#666666" d="M48.27,-229.03C56.24,-217.16 66.71,-201.57 74.66,-189.72"/>
+<text xml:space="preserve" text-anchor="middle" x="65.65" y="-193.32" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="44.93" y="-218.23" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node3" class="node">
+<title>venta</title>
+<polygon fill="none" stroke="#555555" points="118.85,-112.96 54,-112.96 54,-76.48 118.85,-76.48 118.85,-112.96"/>
+<text xml:space="preserve" text-anchor="middle" x="86.42" y="-89.92" font-family="Arial" font-size="16.00">Venta</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>cliente-&gt;venta</title>
+<path fill="none" stroke="#666666" d="M33.13,-229.1C30.29,-209.76 27.98,-178.09 37.42,-152.96 43.17,-137.65 54.99,-123.65 65.58,-113.32"/>
+<text xml:space="preserve" text-anchor="middle" x="56.57" y="-116.92" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="29.8" y="-218.3" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>receta-&gt;venta</title>
+<path fill="none" stroke="#666666" d="M86.42,-152.55C86.42,-140.68 86.42,-125.09 86.42,-113.24"/>
+<text xml:space="preserve" text-anchor="middle" x="77.42" y="-116.84" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="76.41" y="-141.75" font-family="Arial" font-size="12.00">0..1</text>
+</g>
+
+<g id="node4" class="node">
+<title>detalle</title>
+<polygon fill="none" stroke="#555555" points="153.76,-36.48 15.09,-36.48 15.09,0 153.76,0 153.76,-36.48"/>
+<text xml:space="preserve" text-anchor="middle" x="84.42" y="-13.44" font-family="Arial" font-size="16.00">Detalle de venta</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>venta-&gt;detalle</title>
+<path fill="none" stroke="#666666" d="M85.95,-76.07C85.63,-64.2 85.21,-48.61 84.89,-36.76"/>
+<text xml:space="preserve" text-anchor="middle" x="75.89" y="-40.36" font-family="Arial" font-size="12.00">1..*</text>
+<text xml:space="preserve" text-anchor="middle" x="82.61" y="-65.27" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node13" class="node">
+<title>mov</title>
+<polygon fill="none" stroke="#555555" points="347.86,-36.48 178.98,-36.48 178.98,0 347.86,0 347.86,-36.48"/>
+<text xml:space="preserve" text-anchor="middle" x="263.42" y="-13.44" font-family="Arial" font-size="16.00">Movimiento de stock</text>
+</g>
+
+<g id="edge15" class="edge">
+<title>venta-&gt;mov</title>
+<path fill="none" stroke="#666666" d="M119.3,-79.89C148.09,-67.77 190.09,-50.1 221.34,-36.95"/>
+<text xml:space="preserve" text-anchor="middle" x="212.33" y="-40.55" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="129.31" y="-83.49" font-family="Arial" font-size="12.00">0..1</text>
+</g>
+
+<g id="node5" class="node">
+<title>lote</title>
+<polygon fill="none" stroke="#555555" points="321.51,-112.96 267.33,-112.96 267.33,-76.48 321.51,-76.48 321.51,-112.96"/>
+<text xml:space="preserve" text-anchor="middle" x="294.42" y="-89.92" font-family="Arial" font-size="16.00">Lote</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>lote-&gt;detalle</title>
+<path fill="none" stroke="#666666" d="M266.97,-83.98C233.39,-72.07 175.92,-51.69 134.41,-36.97"/>
+<text xml:space="preserve" text-anchor="middle" x="125.41" y="-40.57" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="263.63" y="-87.58" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node9" class="node">
+<title>detc</title>
+<polygon fill="none" stroke="#555555" points="525.86,-36.48 372.98,-36.48 372.98,0 525.86,0 525.86,-36.48"/>
+<text xml:space="preserve" text-anchor="middle" x="449.42" y="-13.44" font-family="Arial" font-size="16.00">Detalle de compra</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>lote-&gt;detc</title>
+<path fill="none" stroke="#666666" d="M321.78,-80.58C347.07,-68.42 384.84,-50.27 412.74,-36.87"/>
+<text xml:space="preserve" text-anchor="middle" x="403.74" y="-40.47" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="325.11" y="-84.18" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>lote-&gt;mov</title>
+<path fill="none" stroke="#666666" d="M287.08,-76.07C282.13,-64.2 275.65,-48.61 270.72,-36.76"/>
+<text xml:space="preserve" text-anchor="middle" x="279.72" y="-40.36" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="283.74" y="-65.27" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node6" class="node">
+<title>med</title>
+<polygon fill="none" stroke="#555555" points="369.97,-189.44 250.88,-189.44 250.88,-152.96 369.97,-152.96 369.97,-189.44"/>
+<text xml:space="preserve" text-anchor="middle" x="310.42" y="-166.4" font-family="Arial" font-size="16.00">Medicamento</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>med-&gt;lote</title>
+<path fill="none" stroke="#666666" d="M306.63,-152.55C304.08,-140.68 300.73,-125.09 298.19,-113.24"/>
+<text xml:space="preserve" text-anchor="middle" x="289.18" y="-116.84" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="303.29" y="-141.75" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node7" class="node">
+<title>categoria</title>
+<polygon fill="none" stroke="#555555" points="359.3,-265.92 261.55,-265.92 261.55,-229.44 359.3,-229.44 359.3,-265.92"/>
+<text xml:space="preserve" text-anchor="middle" x="310.42" y="-242.88" font-family="Arial" font-size="16.00">Categoría</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>categoria-&gt;med</title>
+<path fill="none" stroke="#666666" d="M310.42,-229.03C310.42,-217.16 310.42,-201.57 310.42,-189.72"/>
+<text xml:space="preserve" text-anchor="middle" x="301.42" y="-193.32" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="307.09" y="-218.23" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node8" class="node">
+<title>compra</title>
+<polygon fill="none" stroke="#555555" points="487.4,-112.96 407.45,-112.96 407.45,-76.48 487.4,-76.48 487.4,-112.96"/>
+<text xml:space="preserve" text-anchor="middle" x="447.42" y="-89.92" font-family="Arial" font-size="16.00">Compra</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>compra-&gt;detc</title>
+<path fill="none" stroke="#666666" d="M447.9,-76.07C448.22,-64.2 448.63,-48.61 448.95,-36.76"/>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-40.36" font-family="Arial" font-size="12.00">1..*</text>
+<text xml:space="preserve" text-anchor="middle" x="444.56" y="-65.27" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="edge14" class="edge">
+<title>compra-&gt;mov</title>
+<path fill="none" stroke="#666666" d="M407.04,-77.38C377.53,-65.43 337.53,-49.24 307.24,-36.98"/>
+<text xml:space="preserve" text-anchor="middle" x="298.24" y="-40.58" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="397.03" y="-80.98" font-family="Arial" font-size="12.00">0..1</text>
+</g>
+
+<g id="node10" class="node">
+<title>prov</title>
+<polygon fill="none" stroke="#555555" points="495.85,-189.44 398.99,-189.44 398.99,-152.96 495.85,-152.96 495.85,-189.44"/>
+<text xml:space="preserve" text-anchor="middle" x="447.42" y="-166.4" font-family="Arial" font-size="16.00">Proveedor</text>
+</g>
+
+<g id="edge10" class="edge">
+<title>prov-&gt;compra</title>
+<path fill="none" stroke="#666666" d="M447.42,-152.55C447.42,-140.68 447.42,-125.09 447.42,-113.24"/>
+<text xml:space="preserve" text-anchor="middle" x="438.42" y="-116.84" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="444.09" y="-141.75" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node11" class="node">
+<title>usuario</title>
+<polygon fill="none" stroke="#555555" points="200.51,-265.92 122.34,-265.92 122.34,-229.44 200.51,-229.44 200.51,-265.92"/>
+<text xml:space="preserve" text-anchor="middle" x="161.42" y="-242.88" font-family="Arial" font-size="16.00">Usuario</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>usuario-&gt;receta</title>
+<path fill="none" stroke="#666666" d="M143.65,-229.03C131.69,-217.16 116,-201.57 104.07,-189.72"/>
+<text xml:space="preserve" text-anchor="middle" x="95.06" y="-193.32" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="140.31" y="-218.23" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>usuario-&gt;venta</title>
+<path fill="none" stroke="#666666" d="M158.93,-229.25C155.62,-209.76 148.6,-177.7 135.42,-152.96 127.55,-138.18 115.3,-123.87 105.02,-113.26"/>
+<text xml:space="preserve" text-anchor="middle" x="96.01" y="-116.86" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="155.59" y="-218.45" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="edge16" class="edge">
+<title>usuario-&gt;mov</title>
+<path fill="none" stroke="#666666" d="M169.26,-229.21C188.24,-186.87 236.55,-79.17 255.56,-36.77"/>
+<text xml:space="preserve" text-anchor="middle" x="246.56" y="-40.37" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="165.92" y="-218.41" font-family="Arial" font-size="12.00">1</text>
+</g>
+
+<g id="node12" class="node">
+<title>rol</title>
+<polygon fill="none" stroke="#555555" points="188.42,-342.4 134.42,-342.4 134.42,-305.92 188.42,-305.92 188.42,-342.4"/>
+<text xml:space="preserve" text-anchor="middle" x="161.42" y="-319.36" font-family="Arial" font-size="16.00">Rol</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>rol-&gt;usuario</title>
+<path fill="none" stroke="#666666" d="M161.42,-305.51C161.42,-293.64 161.42,-278.05 161.42,-266.2"/>
+<text xml:space="preserve" text-anchor="middle" x="152.42" y="-269.8" font-family="Arial" font-size="12.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="158.09" y="-294.71" font-family="Arial" font-size="12.00">1</text>
+</g>
+</g>
+</svg>

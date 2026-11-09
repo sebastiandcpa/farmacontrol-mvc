@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1050pt" height="771pt" viewBox="0.00 0.00 1050.00 771.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 752.56)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-752.56 1032.32,-752.56 1032.32,18 -18,18"/>
+
+<g id="node1" class="node">
+<title>Rol</title>
+<polygon fill="none" stroke="#555555" points="370.41,-624.62 370.41,-734.06 476.14,-734.06 476.14,-624.62 370.41,-624.62"/>
+<text xml:space="preserve" text-anchor="middle" x="423.27" y="-711.02" font-family="Arial" font-size="16.00">Rol</text>
+<polyline fill="none" stroke="#555555" points="370.41,-697.58 476.14,-697.58"/>
+<text xml:space="preserve" text-anchor="middle" x="423.27" y="-674.54" font-family="Arial" font-size="16.00">PK rol_id</text>
+<polyline fill="none" stroke="#555555" points="370.41,-661.1 476.14,-661.1"/>
+<text xml:space="preserve" text-anchor="middle" x="423.27" y="-638.06" font-family="Arial" font-size="16.00">nombre UQ</text>
+</g>
+
+<g id="node2" class="node">
+<title>Usuario</title>
+<polygon fill="none" stroke="#555555" points="350.38,-416.58 350.38,-583.62 496.17,-583.62 496.17,-416.58 350.38,-416.58"/>
+<text xml:space="preserve" text-anchor="middle" x="423.27" y="-560.58" font-family="Arial" font-size="16.00">Usuario</text>
+<polyline fill="none" stroke="#555555" points="350.38,-547.14 496.17,-547.14"/>
+<text xml:space="preserve" text-anchor="middle" x="423.27" y="-524.1" font-family="Arial" font-size="16.00">PK usuario_id</text>
+<polyline fill="none" stroke="#555555" points="350.38,-510.66 496.17,-510.66"/>
+<text xml:space="preserve" text-anchor="start" x="361.89" y="-487.62" font-family="Arial" font-size="16.00">FK rol_id</text>
+<text xml:space="preserve" text-anchor="start" x="361.89" y="-468.42" font-family="Arial" font-size="16.00">correo UQ</text>
+<text xml:space="preserve" text-anchor="start" x="361.89" y="-449.22" font-family="Arial" font-size="16.00">hash_contrasena</text>
+<text xml:space="preserve" text-anchor="middle" x="423.27" y="-430.02" font-family="Arial" font-size="16.00">activo</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>Rol-&gt;Usuario</title>
+<path fill="none" stroke="#666666" d="M423.27,-624.2C423.27,-611.47 423.27,-597.62 423.27,-583.96"/>
+</g>
+
+<g id="node8" class="node">
+<title>Venta</title>
+<polygon fill="none" stroke="#555555" points="165.92,-208.54 165.92,-375.58 408.63,-375.58 408.63,-208.54 165.92,-208.54"/>
+<text xml:space="preserve" text-anchor="middle" x="287.27" y="-352.54" font-family="Arial" font-size="16.00">Venta</text>
+<polyline fill="none" stroke="#555555" points="165.92,-339.1 408.63,-339.1"/>
+<text xml:space="preserve" text-anchor="middle" x="287.27" y="-316.06" font-family="Arial" font-size="16.00">PK venta_id</text>
+<polyline fill="none" stroke="#555555" points="165.92,-302.62 408.63,-302.62"/>
+<text xml:space="preserve" text-anchor="start" x="177.44" y="-279.58" font-family="Arial" font-size="16.00">FK cliente_id, usuario_id</text>
+<text xml:space="preserve" text-anchor="start" x="177.44" y="-260.38" font-family="Arial" font-size="16.00">FK receta_id NULL</text>
+<text xml:space="preserve" text-anchor="start" x="177.44" y="-241.18" font-family="Arial" font-size="16.00">FK anulado_por NULL</text>
+<text xml:space="preserve" text-anchor="middle" x="287.27" y="-221.98" font-family="Arial" font-size="16.00">UQ tipo, numero_comprobante</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>Usuario-&gt;Venta</title>
+<path fill="none" stroke="#666666" d="M368.55,-416.19C359.76,-402.88 350.67,-389.11 341.89,-375.8"/>
+</g>
+
+<g id="node3" class="node">
+<title>Cliente</title>
+<polygon fill="none" stroke="#555555" points="0,-624.62 0,-734.06 316.55,-734.06 316.55,-624.62 0,-624.62"/>
+<text xml:space="preserve" text-anchor="middle" x="158.27" y="-711.02" font-family="Arial" font-size="16.00">Cliente</text>
+<polyline fill="none" stroke="#555555" points="0,-697.58 316.55,-697.58"/>
+<text xml:space="preserve" text-anchor="middle" x="158.27" y="-674.54" font-family="Arial" font-size="16.00">PK cliente_id</text>
+<polyline fill="none" stroke="#555555" points="0,-661.1 316.55,-661.1"/>
+<text xml:space="preserve" text-anchor="middle" x="158.27" y="-638.06" font-family="Arial" font-size="16.00">UQ tipo_documento, numero_documento</text>
+</g>
+
+<g id="node7" class="node">
+<title>Receta</title>
+<polygon fill="none" stroke="#555555" points="166.72,-416.58 166.72,-583.62 325.83,-583.62 325.83,-416.58 166.72,-416.58"/>
+<text xml:space="preserve" text-anchor="middle" x="246.27" y="-560.58" font-family="Arial" font-size="16.00">Receta</text>
+<polyline fill="none" stroke="#555555" points="166.72,-547.14 325.83,-547.14"/>
+<text xml:space="preserve" text-anchor="middle" x="246.27" y="-524.1" font-family="Arial" font-size="16.00">PK receta_id</text>
+<polyline fill="none" stroke="#555555" points="166.72,-510.66 325.83,-510.66"/>
+<text xml:space="preserve" text-anchor="start" x="178.24" y="-487.62" font-family="Arial" font-size="16.00">FK cliente_id</text>
+<text xml:space="preserve" text-anchor="start" x="178.24" y="-468.42" font-family="Arial" font-size="16.00">FK registrado_por</text>
+<text xml:space="preserve" text-anchor="start" x="178.24" y="-449.22" font-family="Arial" font-size="16.00">numero_receta UQ</text>
+<text xml:space="preserve" text-anchor="middle" x="246.27" y="-430.02" font-family="Arial" font-size="16.00">fechas, estado</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>Cliente-&gt;Receta</title>
+<path fill="none" stroke="#666666" d="M185.15,-624.2C191.47,-611.47 198.35,-597.62 205.13,-583.96"/>
+</g>
+
+<g id="edge5" class="edge">
+<title>Cliente-&gt;Venta</title>
+<path fill="none" stroke="#666666" d="M144.85,-624.29C134.03,-569.4 124.95,-483.15 154.27,-416.08 160.57,-401.67 169.49,-388.2 179.75,-375.84"/>
+</g>
+
+<g id="node4" class="node">
+<title>Categoria</title>
+<polygon fill="none" stroke="#555555" points="536.27,-624.62 536.27,-734.06 672.27,-734.06 672.27,-624.62 536.27,-624.62"/>
+<text xml:space="preserve" text-anchor="middle" x="604.27" y="-711.02" font-family="Arial" font-size="16.00">Categoria</text>
+<polyline fill="none" stroke="#555555" points="536.27,-697.58 672.27,-697.58"/>
+<text xml:space="preserve" text-anchor="middle" x="604.27" y="-674.54" font-family="Arial" font-size="16.00">PK categoria_id</text>
+<polyline fill="none" stroke="#555555" points="536.27,-661.1 672.27,-661.1"/>
+<text xml:space="preserve" text-anchor="middle" x="604.27" y="-638.06" font-family="Arial" font-size="16.00">nombre UQ</text>
+</g>
+
+<g id="node5" class="node">
+<title>Medicamento</title>
+<polygon fill="none" stroke="#555555" points="521.16,-416.58 521.16,-583.62 687.39,-583.62 687.39,-416.58 521.16,-416.58"/>
+<text xml:space="preserve" text-anchor="middle" x="604.27" y="-560.58" font-family="Arial" font-size="16.00">Medicamento</text>
+<polyline fill="none" stroke="#555555" points="521.16,-547.14 687.39,-547.14"/>
+<text xml:space="preserve" text-anchor="middle" x="604.27" y="-524.1" font-family="Arial" font-size="16.00">PK medicamento_id</text>
+<polyline fill="none" stroke="#555555" points="521.16,-510.66 687.39,-510.66"/>
+<text xml:space="preserve" text-anchor="start" x="532.68" y="-487.62" font-family="Arial" font-size="16.00">FK categoria_id</text>
+<text xml:space="preserve" text-anchor="start" x="532.68" y="-468.42" font-family="Arial" font-size="16.00">sku UQ</text>
+<text xml:space="preserve" text-anchor="start" x="532.68" y="-449.22" font-family="Arial" font-size="16.00">precio_venta</text>
+<text xml:space="preserve" text-anchor="middle" x="604.27" y="-430.02" font-family="Arial" font-size="16.00">requiere_receta</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>Categoria-&gt;Medicamento</title>
+<path fill="none" stroke="#666666" d="M604.27,-624.2C604.27,-611.47 604.27,-597.62 604.27,-583.96"/>
+</g>
+
+<g id="node6" class="node">
+<title>Lote</title>
+<polygon fill="none" stroke="#555555" points="433.46,-208.54 433.46,-375.58 693.08,-375.58 693.08,-208.54 433.46,-208.54"/>
+<text xml:space="preserve" text-anchor="middle" x="563.27" y="-352.54" font-family="Arial" font-size="16.00">Lote</text>
+<polyline fill="none" stroke="#555555" points="433.46,-339.1 693.08,-339.1"/>
+<text xml:space="preserve" text-anchor="middle" x="563.27" y="-316.06" font-family="Arial" font-size="16.00">PK lote_id</text>
+<polyline fill="none" stroke="#555555" points="433.46,-302.62 693.08,-302.62"/>
+<text xml:space="preserve" text-anchor="start" x="444.98" y="-279.58" font-family="Arial" font-size="16.00">FK medicamento_id</text>
+<text xml:space="preserve" text-anchor="start" x="444.98" y="-260.38" font-family="Arial" font-size="16.00">UQ medicamento_id, codigo_lote</text>
+<text xml:space="preserve" text-anchor="start" x="444.98" y="-241.18" font-family="Arial" font-size="16.00">fecha_vencimiento</text>
+<text xml:space="preserve" text-anchor="middle" x="563.27" y="-221.98" font-family="Arial" font-size="16.00">stock_actual no negativo</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>Medicamento-&gt;Lote</title>
+<path fill="none" stroke="#666666" d="M587.77,-416.19C585.13,-402.88 582.39,-389.11 579.74,-375.8"/>
+</g>
+
+<g id="node9" class="node">
+<title>DetalleVenta</title>
+<polygon fill="none" stroke="#555555" points="220.59,-10.1 220.59,-157.94 417.96,-157.94 417.96,-10.1 220.59,-10.1"/>
+<text xml:space="preserve" text-anchor="middle" x="319.27" y="-134.9" font-family="Arial" font-size="16.00">DetalleVenta</text>
+<polyline fill="none" stroke="#555555" points="220.59,-121.46 417.96,-121.46"/>
+<text xml:space="preserve" text-anchor="middle" x="319.27" y="-98.42" font-family="Arial" font-size="16.00">PK detalle_venta_id</text>
+<polyline fill="none" stroke="#555555" points="220.59,-84.98 417.96,-84.98"/>
+<text xml:space="preserve" text-anchor="start" x="232.11" y="-61.94" font-family="Arial" font-size="16.00">FK venta_id, lote_id</text>
+<text xml:space="preserve" text-anchor="start" x="232.11" y="-42.74" font-family="Arial" font-size="16.00">cantidad, precio_unitario</text>
+<text xml:space="preserve" text-anchor="middle" x="319.27" y="-23.54" font-family="Arial" font-size="16.00">subtotal calculado</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>Lote-&gt;DetalleVenta</title>
+<path fill="none" stroke="#666666" d="M465.08,-208.15C445.49,-191.6 425.03,-174.33 405.86,-158.14"/>
+</g>
+
+<g id="node11" class="node">
+<title>DetalleCompra</title>
+<polygon fill="none" stroke="#555555" points="723.25,-10.1 723.25,-157.94 915.29,-157.94 915.29,-10.1 723.25,-10.1"/>
+<text xml:space="preserve" text-anchor="middle" x="819.27" y="-134.9" font-family="Arial" font-size="16.00">DetalleCompra</text>
+<polyline fill="none" stroke="#555555" points="723.25,-121.46 915.29,-121.46"/>
+<text xml:space="preserve" text-anchor="middle" x="819.27" y="-98.42" font-family="Arial" font-size="16.00">PK detalle_compra_id</text>
+<polyline fill="none" stroke="#555555" points="723.25,-84.98 915.29,-84.98"/>
+<text xml:space="preserve" text-anchor="start" x="734.77" y="-61.94" font-family="Arial" font-size="16.00">FK compra_id, lote_id</text>
+<text xml:space="preserve" text-anchor="start" x="734.77" y="-42.74" font-family="Arial" font-size="16.00">cantidad, costo_unitario</text>
+<text xml:space="preserve" text-anchor="middle" x="819.27" y="-23.54" font-family="Arial" font-size="16.00">subtotal calculado</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>Lote-&gt;DetalleCompra</title>
+<path fill="none" stroke="#666666" d="M666.29,-208.15C686.85,-191.6 708.31,-174.33 728.43,-158.14"/>
+</g>
+
+<g id="node13" class="node">
+<title>MovimientoStock</title>
+<polygon fill="none" stroke="#555555" points="474.38,-0.5 474.38,-167.54 652.17,-167.54 652.17,-0.5 474.38,-0.5"/>
+<text xml:space="preserve" text-anchor="middle" x="563.27" y="-144.5" font-family="Arial" font-size="16.00">MovimientoStock</text>
+<polyline fill="none" stroke="#555555" points="474.38,-131.06 652.17,-131.06"/>
+<text xml:space="preserve" text-anchor="middle" x="563.27" y="-108.02" font-family="Arial" font-size="16.00">PK movimiento_id</text>
+<polyline fill="none" stroke="#555555" points="474.38,-94.58 652.17,-94.58"/>
+<text xml:space="preserve" text-anchor="start" x="485.89" y="-71.54" font-family="Arial" font-size="16.00">FK lote_id, usuario_id</text>
+<text xml:space="preserve" text-anchor="start" x="485.89" y="-52.34" font-family="Arial" font-size="16.00">FK compra_id NULL</text>
+<text xml:space="preserve" text-anchor="start" x="485.89" y="-33.14" font-family="Arial" font-size="16.00">FK venta_id NULL</text>
+<text xml:space="preserve" text-anchor="middle" x="563.27" y="-13.94" font-family="Arial" font-size="16.00">tipo, cantidad, fecha</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>Lote-&gt;MovimientoStock</title>
+<path fill="none" stroke="#666666" d="M563.27,-208.15C563.27,-194.84 563.27,-181.07 563.27,-167.76"/>
+</g>
+
+<g id="edge6" class="edge">
+<title>Receta-&gt;Venta</title>
+<path fill="none" stroke="#666666" d="M262.77,-416.19C265.42,-402.88 268.16,-389.11 270.81,-375.8"/>
+</g>
+
+<g id="edge10" class="edge">
+<title>Venta-&gt;DetalleVenta</title>
+<path fill="none" stroke="#666666" d="M300.15,-208.15C302.72,-191.6 305.4,-174.33 307.92,-158.14"/>
+</g>
+
+<g id="edge14" class="edge">
+<title>Venta-&gt;MovimientoStock</title>
+<path fill="none" stroke="#666666" d="M398.34,-208.15C423.51,-189.36 449.91,-169.65 474.04,-151.64"/>
+</g>
+
+<g id="node10" class="node">
+<title>Compra</title>
+<polygon fill="none" stroke="#555555" points="718.23,-227.74 718.23,-356.38 1014.32,-356.38 1014.32,-227.74 718.23,-227.74"/>
+<text xml:space="preserve" text-anchor="middle" x="866.27" y="-333.34" font-family="Arial" font-size="16.00">Compra</text>
+<polyline fill="none" stroke="#555555" points="718.23,-319.9 1014.32,-319.9"/>
+<text xml:space="preserve" text-anchor="middle" x="866.27" y="-296.86" font-family="Arial" font-size="16.00">PK compra_id</text>
+<polyline fill="none" stroke="#555555" points="718.23,-283.42 1014.32,-283.42"/>
+<text xml:space="preserve" text-anchor="start" x="729.75" y="-260.38" font-family="Arial" font-size="16.00">FK proveedor_id, usuario_id</text>
+<text xml:space="preserve" text-anchor="middle" x="866.27" y="-241.18" font-family="Arial" font-size="16.00">UQ proveedor_id, numero_documento</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>Compra-&gt;DetalleCompra</title>
+<path fill="none" stroke="#666666" d="M851.72,-227.28C846.74,-205.41 841.12,-180.78 835.97,-158.23"/>
+</g>
+
+<g id="edge15" class="edge">
+<title>Compra-&gt;MovimientoStock</title>
+<path fill="none" stroke="#666666" d="M772.48,-227.28C734.24,-201.28 690.24,-171.36 652.48,-145.68"/>
+</g>
+
+<g id="node12" class="node">
+<title>Proveedor</title>
+<polygon fill="none" stroke="#555555" points="795.16,-435.78 795.16,-564.42 937.39,-564.42 937.39,-435.78 795.16,-435.78"/>
+<text xml:space="preserve" text-anchor="middle" x="866.27" y="-541.38" font-family="Arial" font-size="16.00">Proveedor</text>
+<polyline fill="none" stroke="#555555" points="795.16,-527.94 937.39,-527.94"/>
+<text xml:space="preserve" text-anchor="middle" x="866.27" y="-504.9" font-family="Arial" font-size="16.00">PK proveedor_id</text>
+<polyline fill="none" stroke="#555555" points="795.16,-491.46 937.39,-491.46"/>
+<text xml:space="preserve" text-anchor="start" x="806.68" y="-468.42" font-family="Arial" font-size="16.00">ruc UQ</text>
+<text xml:space="preserve" text-anchor="middle" x="866.27" y="-449.22" font-family="Arial" font-size="16.00">activo</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>Proveedor-&gt;Compra</title>
+<path fill="none" stroke="#666666" d="M866.27,-435.32C866.27,-410.26 866.27,-381.57 866.27,-356.54"/>
+</g>
+</g>
+</svg>

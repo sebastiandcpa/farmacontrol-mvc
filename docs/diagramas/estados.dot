@@ -1,0 +1,7 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=LR; node[shape=box]; initial[shape=circle,label="",style=filled,fillcolor="black",width=.17]; conf[label="CONFIRMADA
+Stock descontado
+Salida registrada"]; annul[label="ANULADA
+Stock restituido
+Reverso y responsable registrados"]; initial->conf[label="Registro válido y COMMIT"];conf->annul[label="CU-12 Administrador
+Solo si está confirmada"];annul->annul[label="Nueva solicitud rechazada
+Sin transición ni segundo reverso",style=dashed]; }

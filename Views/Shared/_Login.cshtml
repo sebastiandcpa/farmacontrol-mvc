@@ -1,0 +1,20 @@
+@model LoginViewModel
+<main class="login">
+    <section class="login-hero">
+        <div class="brand"><div class="brand-symbol">+</div><div><div class="brand-name">@Model.ApplicationName.ToUpperInvariant()</div><div class="brand-sub">@Model.Description</div></div></div>
+        <h1>Tu farmacia,<br />bajo control.</h1>
+        <p>Un solo lugar para organizar tus ventas, cuidar el inventario y llevar el control de cada medicamento.</p>
+        <div class="login-points"><span>Ventas por lote</span><span>Alertas de vencimiento</span><span>Reportes</span></div>
+    </section>
+    <section class="login-panel">
+        <form class="login-form" id="login-form">
+            <h2>Acceso a @Model.ApplicationName</h2>
+            <p>Ingresa con el correo y contraseña de tu usuario.</p>
+            <div class="field"><label for="login-email">Correo</label><input class="input" id="login-email" name="email" type="email" autocomplete="username" maxlength="160" required /></div>
+            <div class="field"><label for="login-password">Contraseña</label><input class="input" id="login-password" name="password" type="password" autocomplete="current-password" maxlength="128" required /></div>
+            <div class="form-error" role="alert" hidden></div>
+            <button class="btn primary wide" type="submit">Entrar a @Model.ApplicationName <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14 M14 7l5 5-5 5" /></svg></button>
+            <div class="login-foot">@Model.ApplicationName · @Model.Description</div>
+        </form>
+    </section>
+</main>

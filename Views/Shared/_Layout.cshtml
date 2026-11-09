@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#087b65" />
+    <meta name="description" content="FarmaControl. Sistema de gestión de ventas, compras e inventario de farmacia." />
+    <title>@ViewData["Title"] · FarmaControl</title>
+    <link rel="icon" href="~/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="~/styles.css" asp-append-version="true" />
+    <script type="module" src="~/app.js" asp-append-version="true"></script>
+</head>
+<body>
+    @RenderBody()
+    <template id="login-template"><partial name="_Login" model="new LoginViewModel()" /></template>
+    <dialog id="modal" aria-labelledby="modal-title"></dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <noscript>Activa JavaScript en tu navegador para utilizar los formularios de FarmaControl.</noscript>
+</body>
+</html>

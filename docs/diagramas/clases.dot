@@ -1,0 +1,8 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=TB; node[shape=record,fontsize=14];
+ home[label="{HomeController|Index()}"]; viewmodel[label="{ApplicationViewModel|Title\lName\lRole}"];
+ cuenta[label="{CuentaController|Ingresar()\lSalir()}"]; login[label="{LoginRequest|Email\lPassword}"];
+ ventas[label="{VentasController|Registrar()\lAnular()}"]; base[label="{OperationController|Execute()}"]; venta[label="{VentaRequest|ClientId\lType\lRecipeId\lItems}"];
+ repo[label="{Repository|User()\lState()\lApply()\lInitialize()}"]; user[label="{User|Id\lName\lRole\lActive|Public()}"];
+ password[label="{Passwords|Hash()\lVerify()}"]; sql[label="{SQL Server|13 tablas\l3 procedimientos}"];
+ home->viewmodel[label="presenta"]; cuenta->login[label="recibe"]; cuenta->password[label="verifica"]; cuenta->repo[label="consulta"];
+ ventas->base[arrowhead=empty,label="hereda"]; ventas->venta[label="recibe"]; base->repo[label="utiliza"]; repo->user[label="devuelve"]; repo->sql[label="SqlClient"]; }

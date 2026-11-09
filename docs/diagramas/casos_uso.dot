@@ -1,0 +1,5 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=LR; node[shape=plaintext]; a[label="«actor»
+Administrador"]; c[label="«actor»
+Cajero"]; al[label="«actor»
+Almacenero"]; q[label="«actor»
+Químico farmacéutico"]; subgraph cluster_sys {label="FarmaControl";color="#555555"; node[shape=ellipse]; u1[label="CU-01 Iniciar sesión"]; u2[label="CU-02 Gestionar clientes"]; u3[label="CU-03 Consultar medicamentos"]; u4[label="CU-04 Registrar receta"]; u5[label="CU-05 Registrar venta"]; u6[label="CU-06 Consultar constancia"]; u7[label="CU-07 Registrar compra"]; u8[label="CU-08 Gestionar catálogo y lotes"]; u9[label="CU-09 Consultar alertas"]; u10[label="CU-10 Generar reportes"]; u11[label="CU-11 Administrar usuarios"]; u12[label="CU-12 Anular venta"]; } edge[dir=none]; a->u1;a->u2;a->u3;a->u5;a->u6;a->u7;a->u8;a->u9;a->u10;a->u11;a->u12;c->u1;c->u2;c->u3;c->u5;c->u6;al->u1;al->u3;al->u7;al->u8;al->u9;q->u1;q->u3;q->u4;q->u9; }

@@ -1,0 +1,11 @@
+digraph G {graph[fontname="Arial",fontsize=18,bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55"]; node[fontname="Arial",fontsize=16,color="#555555",margin="0.16,0.12"]; edge[fontname="Arial",fontsize=12,color="#666666"]; rankdir=TB; node[shape=component];
+ vistas[label="Views
+Razor y modelos de presentación"]; recursos[label="wwwroot
+CSS y JavaScript"];
+ ctrl[label="Controllers
+Home Cuenta Ventas Compras y otros"]; modelos[label="Models
+Solicitudes tipadas y validación"]; repo[label="Data/Repository
+Persistencia parametrizada"]; security[label="Security e Infrastructure
+Sesión solicitudes y errores"]; db[shape=cylinder,label="SQL Server
+Tablas y transacciones"];
+ ctrl->vistas[label="renderiza"]; vistas->recursos[label="carga"]; recursos->ctrl[label="HTTP JSON"];ctrl->modelos[label="recibe"];ctrl->repo[label="invoca"];ctrl->security[label="utiliza"];repo->db[label="SqlClient y TVP"]; }
