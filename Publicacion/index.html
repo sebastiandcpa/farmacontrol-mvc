@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#087b65" />
+<meta name="description" content="FarmaControl. Gestión de ventas, compras e inventario de farmacia." />
+<title>FarmaControl</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="./styles.css" />
+<script type="module" src="./app.js"></script>
+</head>
+<body>
+<div id="root"><main class="login">
+    <section class="login-hero">
+        <div class="brand"><div class="brand-symbol">+</div><div><div class="brand-name">FARMACONTROL</div><div class="brand-sub">Gestión farmacéutica</div></div></div>
+        <h1>Tu farmacia,<br />bajo control.</h1>
+        <p>Un solo lugar para organizar tus ventas, cuidar el inventario y llevar el control de cada medicamento.</p>
+        <div class="login-points"><span>Ventas por lote</span><span>Alertas de vencimiento</span><span>Reportes</span></div>
+    </section>
+    <section class="login-panel">
+        <form class="login-form" id="login-form">
+            <h2>Acceso a FarmaControl</h2>
+            <p>Ingresa con el correo y contraseña de tu usuario.</p>
+            <div class="field"><label for="login-email">Correo</label><input class="input" id="login-email" name="email" type="email" autocomplete="username" maxlength="160" required /></div>
+            <div class="field"><label for="login-password">Contraseña</label><input class="input" id="login-password" name="password" type="password" autocomplete="current-password" maxlength="128" required /></div>
+            <div class="form-error" role="alert" hidden></div>
+            <button class="btn primary wide" type="submit">Entrar a FarmaControl <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14 M14 7l5 5-5 5" /></svg></button>
+            <div class="login-foot">FarmaControl · Gestión farmacéutica</div>
+        </form>
+    </section>
+</main></div>
+<template id="login-template"><main class="login">
+    <section class="login-hero">
+        <div class="brand"><div class="brand-symbol">+</div><div><div class="brand-name">FARMACONTROL</div><div class="brand-sub">Gestión farmacéutica</div></div></div>
+        <h1>Tu farmacia,<br />bajo control.</h1>
+        <p>Un solo lugar para organizar tus ventas, cuidar el inventario y llevar el control de cada medicamento.</p>
+        <div class="login-points"><span>Ventas por lote</span><span>Alertas de vencimiento</span><span>Reportes</span></div>
+    </section>
+    <section class="login-panel">
+        <form class="login-form" id="login-form">
+            <h2>Acceso a FarmaControl</h2>
+            <p>Ingresa con el correo y contraseña de tu usuario.</p>
+            <div class="field"><label for="login-email">Correo</label><input class="input" id="login-email" name="email" type="email" autocomplete="username" maxlength="160" required /></div>
+            <div class="field"><label for="login-password">Contraseña</label><input class="input" id="login-password" name="password" type="password" autocomplete="current-password" maxlength="128" required /></div>
+            <div class="form-error" role="alert" hidden></div>
+            <button class="btn primary wide" type="submit">Entrar a FarmaControl <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14 M14 7l5 5-5 5" /></svg></button>
+            <div class="login-foot">FarmaControl · Gestión farmacéutica</div>
+        </form>
+    </section>
+</main></template>
+<dialog id="modal" aria-labelledby="modal-title"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript>Activa JavaScript para utilizar FarmaControl.</noscript>
+</body>
+</html>

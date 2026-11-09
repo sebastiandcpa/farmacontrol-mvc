@@ -1,6 +1,10 @@
 # Demostración de FarmaControl
 
-## Preparación
+## Acceso para la exposición
+
+Abrir https://sebastiandcpa.github.io/farmacontrol-mvc/ en el navegador. La cuenta administrativa es admin@farmacontrol.local y la contraseña inicial es Farma2026!. Los registros de esta publicación se conservan en el navegador utilizado.
+
+## Ejecución del proyecto con SQL Server
 
 Ejecutar `INICIAR_FARMACONTROL.cmd` y abrir `http://localhost:5188`. El equipo requiere Windows, .NET SDK 10 y SQL Server LocalDB. Mantener el servidor activo durante la exposición.
 

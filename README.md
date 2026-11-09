@@ -2,6 +2,14 @@
 
 Sistema web de gestión de ventas, compras e inventario de farmacia, desarrollado con ASP.NET Core MVC, vistas Razor y SQL Server.
 
+## Acceso web
+
+https://sebastiandcpa.github.io/farmacontrol-mvc/
+
+La publicación permite recorrer los módulos y registrar operaciones desde el navegador. Utiliza un conjunto de datos de evaluación y conserva los cambios en el almacenamiento de cada navegador. Las cuentas de acceso se indican en la sección correspondiente.
+
+El proyecto ASP.NET Core MVC con SQL Server mantiene sus fuentes e instalación independientes de esta publicación estática. GitHub Pages no ejecuta el servidor .NET ni la base SQL Server.
+
 ## Arquitectura
 
 | Componente | Responsabilidad |
@@ -92,4 +100,6 @@ Las constancias son documentos internos sin validez tributaria. El sistema no pr
 
 Repositorio: https://github.com/sebastiandcpa/farmacontrol-mvc
 
-La aplicación requiere un servidor ASP.NET Core y SQL Server. GitHub Pages no proporciona ese entorno. El recorrido de exposición está en `GUIA_EXPOSICION.md`.
+La carpeta `Publicacion` contiene la versión accesible mediante GitHub Pages. El flujo `Publicar FarmaControl` verifica sus operaciones y publica los archivos al actualizar la rama principal.
+
+La aplicación completa requiere un servidor ASP.NET Core y SQL Server. El recorrido de exposición está en `GUIA_EXPOSICION.md`.

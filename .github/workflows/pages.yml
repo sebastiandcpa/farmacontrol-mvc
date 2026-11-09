@@ -1,0 +1,44 @@
+name: Publicar FarmaControl
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - Publicacion/**
+      - tests/publicacion.test.mjs
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Obtener fuentes
+        uses: actions/checkout@v6
+      - name: Preparar Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Verificar publicación
+        run: node --test tests/publicacion.test.mjs
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Preparar archivos públicos
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: Publicacion
+      - name: Publicar aplicación
+        id: deployment
+        uses: actions/deploy-pages@v4
