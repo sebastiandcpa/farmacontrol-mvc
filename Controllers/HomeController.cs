@@ -6,6 +6,7 @@ namespace FarmaControl.Controllers;
 
 public sealed class HomeController : Controller
 {
+    [ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
     [HttpGet("/")]
     public IActionResult Index()
     {
